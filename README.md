@@ -27,7 +27,7 @@ We currently do not provide an automated tool to merge these configurations.
 
 Suppose you are installing Rails 2.3.18.59 LTS and Rack 1.4.7.20 and you are using bundler audit.
 
-In this case you can simply merge https://raw.githubusercontent.com/rails-lts/rails-lts-configs/refs/heads/main/configs/rails_lts/2_3_18_59/.bundler-audit.yml and https://raw.githubusercontent.com/rails-lts/rails-lts-configs/refs/heads/main/configs/rack/1_4_7_20/.bundler-audit.yml into one file and put it into your project, to automatically ignore all CVEs fixed by that version of Rails LTS.
+In this case you can simply merge https://raw.githubusercontent.com/rails-lts/security-scanner-configs/refs/heads/main/configs/rails_lts/2_3_18_59/.bundler-audit.yml and https://raw.githubusercontent.com/rails-lts/rails-lts-configs/refs/heads/main/configs/rack/1_4_7_20/.bundler-audit.yml into one file and put it into your project, to automatically ignore all CVEs fixed by that version of Rails LTS.
 
 Note that some entries in that file will contain additional comments, in the rare case you need to take further action.
 
