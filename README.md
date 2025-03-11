@@ -1,4 +1,4 @@
-# Rails LTS Patches & Configurations
+# Sample configurations for third-party tooling with Rails LTS
 
 This repository contains sample configurations for third-party tracking tools used with [Rails LTS](https://railslts.com).
 
