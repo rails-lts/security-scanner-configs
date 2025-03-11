@@ -1,0 +1,51 @@
+GEM
+  remote: https://gems.railslts.com/
+  specs:
+    actionmailer (2.3.18.54)
+      actionpack (= 2.3.18.54)
+    actionpack (2.3.18.54)
+      activesupport (= 2.3.18.54)
+      rack (< 1.5)
+    activerecord (2.3.18.54)
+      activesupport (= 2.3.18.54)
+    activeresource (2.3.18.54)
+      activesupport (= 2.3.18.54)
+    activesupport (2.3.18.54)
+    rack (2.2.4.11)
+    rails (2.3.18.54)
+      actionmailer (= 2.3.18.54)
+      actionpack (= 2.3.18.54)
+      activerecord (= 2.3.18.54)
+      activeresource (= 2.3.18.54)
+      activesupport (= 2.3.18.54)
+      railslts-version (= 2.3.18.54)
+      railties (= 2.3.18.54)
+    railslts-version (2.3.18.54)
+    railties (2.3.18.54)
+      actionpack (= 2.3.18.54)
+      activesupport (= 2.3.18.54)
+      rake (>= 0.8.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.2.1)
+    ruby3-backward-compatibility (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  actionmailer (= 2.3.18.54)!
+  actionpack (= 2.3.18.54)!
+  activerecord (= 2.3.18.54)!
+  activeresource (= 2.3.18.54)!
+  activesupport (= 2.3.18.54)!
+  rack!
+  rails (= 2.3.18.54)!
+  railslts-version (= 2.3.18.54)!
+  railties (= 2.3.18.54)!
+  ruby3-backward-compatibility
+
+BUNDLED WITH
+   2.2.25

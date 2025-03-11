@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore:
+  SNYK-RUBY-RACK-3237240:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-3237233:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-3237237:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+patch: {}

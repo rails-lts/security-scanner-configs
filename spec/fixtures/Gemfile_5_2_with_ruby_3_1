@@ -1,0 +1,19 @@
+source "https://rubygems.org"
+
+source 'https://gems.railslts.com' do
+  gem 'rails', '= 5.2.8.23'
+  gem 'actioncable',      require: false
+  gem 'actionmailer',     require: false
+  gem 'actionpack',       require: false
+  gem 'actionview',       require: false
+  gem 'activejob',        require: false
+  gem 'activemodel',      require: false
+  gem 'activerecord',     require: false
+  gem 'activestorage',    require: false
+  gem 'activesupport',    require: false
+  gem 'railties',         require: false
+  gem 'railslts-version', require: false
+  gem 'rack',             require: false
+end
+
+gem 'ruby3-backward-compatibility'

@@ -1,0 +1,932 @@
+[
+  {
+    "cve_identifier": "CVE-2011-1497",
+    "ghsa_identifier": "GHSA-q58j-fmvf-9rq6",
+    "snyk_identifiers": "SNYK-RUBY-RAILS-1759747",
+    "short_description": "XSS in auto_link method",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2011-2931",
+    "ghsa_identifier": "GHSA-v5jg-558j-q67c",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20281",
+    "short_description": "XSS in strip_tags",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2011-4319",
+    "ghsa_identifier": "xxr8-833v-c7wc",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20020",
+    "short_description": "Cross-site Scripting vulnerability in i18n translations helper method",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-1099",
+    "ghsa_identifier": "GHSA-2xjj-5x6h-8vmf",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20024",
+    "short_description": "XSS in select tag options",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-2660",
+    "ghsa_identifier": "GHSA-hgpp-pp89-4fgf",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20030",
+    "short_description": "Unsafe Query Generation in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-2661",
+    "ghsa_identifier": "GHSA-fh39-v733-mxfr",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20029",
+    "short_description": "SQL injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-2694",
+    "ghsa_identifier": "GHSA-q34c-48gc-m9g8",
+    "snyk_identifiers": "SNYK-RUBY-RAILS-472695",
+    "short_description": "Unsafe Query Generation in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-2695",
+    "ghsa_identifier": "GHSA-76wq-xw4h-f8wj",
+    "snyk_identifiers": "SNYK-RUBY-RAILS-472697",
+    "short_description": "SQL injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-3424",
+    "ghsa_identifier": "GHSA-92w9-2pqw-rhjj",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20035",
+    "short_description": "DoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-3463",
+    "ghsa_identifier": "GHSA-98mf-8f57-64qf",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20037",
+    "short_description": "XSS in form_tag_helper.rb",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-3464",
+    "ghsa_identifier": "GHSA-h835-75hw-pj89",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESUPPORT-20036",
+    "short_description": "XSS in ActiveSupport",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-3465",
+    "ghsa_identifier": "GHSA-7g65-ghrg-hpf5",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20038",
+    "short_description": "XSS in sanitize_helper.rb",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2012-6496",
+    "ghsa_identifier": "GHSA-gh2w-j7cx-2664",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20044",
+    "short_description": "SQL injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-0155",
+    "ghsa_identifier": "GHSA-gppp-5xc5-wfpx",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20046",
+    "short_description": "Unsafe Query generation in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-0156",
+    "ghsa_identifier": "GHSA-jmgw-6vjg-jjwg",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20047",
+    "short_description": "Arbitrary code execution in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-0276",
+    "ghsa_identifier": "GHSA-gr44-7grc-37vq",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20062",
+    "short_description": "attr_protected protection bypass",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-0277",
+    "ghsa_identifier": "GHSA-fhj9-cjjh-27vm",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20061",
+    "short_description": "Arbitrary code execution in serialize helper",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-1854",
+    "ghsa_identifier": "GHSA-3crr-9vmg-864v",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20088",
+    "short_description": "DoS in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-1855",
+    "ghsa_identifier": "GHSA-q759-hwvc-m3jg",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20090",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-1857",
+    "ghsa_identifier": "GHSA-j838-vfpq-fmf2",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20087",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-4491",
+    "ghsa_identifier": "GHSA-699m-mcjm-9cw8",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20123",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-6414",
+    "ghsa_identifier": "GHSA-mpxf-gcw2-pw5q",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20122",
+    "short_description": "DoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-6415",
+    "ghsa_identifier": "GHSA-6h5q-96hp-9jgm",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20121",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-6416",
+    "ghsa_identifier": "GHSA-w37c-q653-qg95",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20120",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2013-6417",
+    "ghsa_identifier": "GHSA-wpw7-wxjm-cw8r",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20125",
+    "short_description": "Fix for CVE-2013-0155",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-0080",
+    "ghsa_identifier": "GHSA-hqf9-rc9j-5fmj",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20149",
+    "short_description": "Data injection in postgres array columns",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-0081",
+    "ghsa_identifier": "GHSA-m46p-ggm5-5j83",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20147",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-0082",
+    "ghsa_identifier": "GHSA-7cgp-c3g7-qvrw",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20148",
+    "short_description": "DoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-0130",
+    "ghsa_identifier": "GHSA-6x85-j5j2-27jx",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20158",
+    "short_description": "Directory traversal in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-3482",
+    "ghsa_identifier": "GHSA-mhwp-qhpc-h3jm",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20185",
+    "short_description": "SQL injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-3483",
+    "ghsa_identifier": "GHSA-r8fh-hq2p-7qhq",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20184",
+    "short_description": "SQL injectin in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-3514",
+    "ghsa_identifier": "GHSA-9rf5-jm6f-2fmm",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20190",
+    "short_description": "Arbitrary data injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-7818",
+    "ghsa_identifier": "GHSA-29gr-w57f-rpfw",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20198",
+    "short_description": "Directory traversal in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2014-7829",
+    "ghsa_identifier": "GHSA-h56m-vwxc-3qpw",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20200",
+    "short_description": "Directory traversal in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-1840",
+    "ghsa_identifier": "GHSA-4whc-pp4x-9pf3",
+    "snyk_identifiers": "SNYK-RUBY-JQUERYRAILS-575390",
+    "short_description": "CSRF in jquery_ujs.js",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-3224",
+    "ghsa_identifier": "GHSA-67j6-xv27-w6ww",
+    "snyk_identifiers": "SNYK-RUBY-WEBCONSOLE-20226",
+    "short_description": "Bypass whitelisted_ips in web_console",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-3226",
+    "ghsa_identifier": "GHSA-vxvp-4xwc-jpp6",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESUPPORT-20228",
+    "short_description": "XSS in ActiveSupport",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-3227",
+    "ghsa_identifier": "GHSA-j96r-xvjq-r9pg",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESUPPORT-20229",
+    "short_description": "DoS in ActiveSupport",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-7576",
+    "ghsa_identifier": "GHSA-p692-7mm3-3fxg",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20258",
+    "short_description": "Timing attack in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-7577",
+    "ghsa_identifier": "GHSA-xrr6-3pc4-m447",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20259",
+    "short_description": "Vulnerability in nested_attributes.rb",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-7578",
+    "ghsa_identifier": "GHSA-59c7-4xj2-hgvw",
+    "snyk_identifiers": "SNYK-RUBY-RAILSHTMLSANITIZER-20257",
+    "short_description": "XSS in rails-html-sanitizer",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-7579",
+    "ghsa_identifier": "GHSA-r9c2-cr39-c8g6",
+    "snyk_identifiers": "SNYK-RUBY-RAILSHTMLSANITIZER-20254",
+    "short_description": "XSS in rails-html-sanitizer",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-7580",
+    "ghsa_identifier": "GHSA-ghqm-pgxj-37gq",
+    "snyk_identifiers": "SNYK-RUBY-RAILSHTMLSANITIZER-20261",
+    "short_description": "XSS in rails-html-sanitizer",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2015-7581",
+    "ghsa_identifier": "GHSA-9h6g-gp95-x3q5",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20255",
+    "short_description": "DoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-0751",
+    "ghsa_identifier": "GHSA-ffpv-c4hm-3x6v",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20256",
+    "short_description": "DoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-0752",
+    "ghsa_identifier": "GHSA-xrr4-p6fq-hjg7",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-20262",
+    "short_description": "Directory traversal in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-0753",
+    "ghsa_identifier": "GHSA-543v-gj2c-r3ch",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVEMODEL-20260",
+    "short_description": "Input validation bypass in ActiveModel",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-2097",
+    "ghsa_identifier": "GHSA-vx9j-46rh-fqr8",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-20263",
+    "short_description": "Information exposure in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-2098",
+    "ghsa_identifier": "GHSA-78rc-8c29-p45g",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20264",
+    "short_description": "Arbitrary code execution in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-6316",
+    "ghsa_identifier": "GHSA-pc3m-v286-2jwj",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-20271",
+    "short_description": "XSS in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2016-6317",
+    "ghsa_identifier": "GHSA-pr3r-4wrp-r2pv",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20270",
+    "short_description": "Unsafe query generation in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2018-16476",
+    "ghsa_identifier": "GHSA-q2qw-rmrh-vv42",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVEJOB-72640",
+    "short_description": "Access control vulnerability in ActiveJob",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2018-16477",
+    "ghsa_identifier": "GHSA-7rr7-rcjw-56vj",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-72641",
+    "short_description": "Bypass vulnerability in ActiveStorage",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2018-3760",
+    "ghsa_identifier": "GHSA-pr3h-jjhj-573x",
+    "snyk_identifiers": "SNYK-RUBY-SPROCKETS-22032",
+    "short_description": "Directory traversal in sprockets",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2019-16782",
+    "ghsa_identifier": "GHSA-hrqr-hxpp-chr3",
+    "snyk_identifiers": "SNYK-RUBY-RACK-538324",
+    "short_description": "Possible information leak / session hijack vulnerability",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2019-5418",
+    "ghsa_identifier": "GHSA-86g5-2wh3-gc9j",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-173784",
+    "short_description": "File content disclosure vulnerability in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2019-5419",
+    "ghsa_identifier": "GHSA-m63j-wh5w-c252",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-173783",
+    "short_description": "DoS in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2019-5420",
+    "ghsa_identifier": "GHSA-m42h-mh85-4qgc",
+    "snyk_identifiers": "SNYK-RUBY-RAILTIES-173785",
+    "short_description": "Remote code execution in railties",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-5267",
+    "ghsa_identifier": "GHSA-65cv-r6x7-79hv",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-560837",
+    "short_description": "XSS in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-8151",
+    "ghsa_identifier": "GHSA-46j2-xjgp-jrfm",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERESOURCE-568275",
+    "short_description": "Information Disclosure in ActiveResource",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-8162",
+    "ghsa_identifier": "GHSA-m42x-37p3-fv5w",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-569602",
+    "short_description": "ActiveStorage Bug",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-8163",
+    "ghsa_identifier": "GHSA-cr3x-7m39-c6jq",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-569156",
+    "short_description": "Remote code execution in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-8164",
+    "ghsa_identifier": "GHSA-8727-m6gj-mc37",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-569600",
+    "short_description": "Information exposure in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-8166",
+    "ghsa_identifier": "GHSA-jp5v-5gx4-jmj9",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-569599",
+    "short_description": "CSRF in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2020-8167",
+    "ghsa_identifier": "GHSA-xq5j-gw7f-jgj8",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-569601",
+    "short_description": "CSRF in ActionView",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2021-22880",
+    "ghsa_identifier": "GHSA-8hc4-xxm3-5ppp",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-1080913, SNYK-RUBY-RAILS-1071903",
+    "short_description": "ReDos in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2021-22902",
+    "ghsa_identifier": "GHSA-g8ww-46x2-2p65",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-1290053",
+    "short_description": "ReDos in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2021-22903",
+    "ghsa_identifier": "GHSA-5hq2-xf89-9jxq",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-1290054",
+    "short_description": "CVE-2021-22903",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2021-22904",
+    "ghsa_identifier": "GHSA-7wjx-3g7j-8584",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-1290052",
+    "short_description": "DoS in ActionPack (see https://mailchi.mp/railslts/rails-ltsmultiple-vulnerabilities-in-rails-cve-2021-22885-cve-2021-22904 for more details)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2022-21831",
+    "ghsa_identifier": "GHSA-w749-p3v6-hccq",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-2420035",
+    "short_description": "Arbitrary code execution in ActiveStorage  (see https://mailchi.mp/railslts/rails-lts-potential-cross-request-information-exposure-cve-2022-23633-in-rails-5-lts for more information)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2022-22577",
+    "ghsa_identifier": "GHSA-mm33-5vfq-3mm3",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-2803847",
+    "short_description": "XSS in ActionPack (see https://mailchi.mp/railslts/rails-lts-possible-xss-vulnerabilities-in-actionview-actionpack-cve-2022-22577-cve-2022-27777 for more information)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2022-23633",
+    "ghsa_identifier": "GHSA-wh98-p28r-vrc9",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-2400638",
+    "short_description": "Information exposure in ActionPack (see https://mailchi.mp/railslts/rails-lts-potential-cross-request-information-exposure-cve-2022-23633-in-rails-5-lts for more details)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2022-31163",
+    "ghsa_identifier": "GHSA-5cm2-9h8c-rvfx",
+    "snyk_identifiers": "SNYK-RUBY-TZINFO-2958048",
+    "short_description": "Directory traversal in tzinfo (see https://mailchi.mp/railslts/rails-lts-potential-path-traversal-and-code-execution-vulnerability-in-tzinfo-cve-2022-31163 from more information)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2022-3704",
+    "ghsa_identifier": "GHSA-9chr-4fjh-5rgw",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-3086619",
+    "short_description": "XSS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-22792",
+    "ghsa_identifier": "GHSA-p84v-45xj-wwqj",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-3237232",
+    "short_description": "ReDoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-22794",
+    "ghsa_identifier": "GHSA-hq7p-j377-6v63",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-3237236",
+    "short_description": "SQL injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-22795",
+    "ghsa_identifier": "GHSA-8xww-x3g3-6jcv",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-3237231",
+    "short_description": "ReDoS in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-22797",
+    "ghsa_identifier": "GHSA-9445-4cr6-336r",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-3237230",
+    "short_description": "Open redirect in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-22799",
+    "ghsa_identifier": "GHSA-23c2-gwp5-pxw9",
+    "snyk_identifiers": "SNYK-RUBY-GLOBALID-3237234",
+    "short_description": "ReDos in global_id fixed in globalid >= 1.0.1. See https://mailchi.mp/railslts/rails-lts-multiple-dos-vulnerabilities-in-rails-rack-and-globalid for more details.",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-23913",
+    "ghsa_identifier": "GHSA-xp5h-f8jf-rc8q",
+    "snyk_identifiers": "SNYK-RUBY-RAILS-5291540",
+    "short_description": "This vulnerability affects the jquery-ujs / prototype-ujs / rails-ujs gems / npm packages which are not part of Rails LTS itself",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-28120",
+    "ghsa_identifier": "GHSA-pj73-v5mw-pm9j",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESUPPORT-3360028",
+    "short_description": "Fixed XSS issue with `SafeBuffer#bytesplice` (only on Ruby 3.2, which is not currently supported), see https://mailchi.mp/railslts/rails-lts-multiple-vulnerabilities-in-rails-and-rack) for more details",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2023-38037",
+    "ghsa_identifier": "GHSA-cr5q-6q9f-rq6q",
+    "snyk_identifiers": "SNYK-RUBY-RAILTIES-5851410, SNYK-RUBY-ACTIVESUPPORT-5851458",
+    "short_description": "Fixed a possible local file disclosure of encrypted files with ActiveSupport::EncryptedFile, see https://mailchi.mp/railslts/rails-lts-patches-for-redos-vulnerabilities-in-time-and-uri-cve-2033-28755-cve-2023-8759969 for more details",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-26142",
+    "ghsa_identifier": "GHSA-jjhx-jhvp-74wq",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-6274387",
+    "short_description": "ReDoS vulnerability in ActionDispatch",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-26143",
+    "ghsa_identifier": "GHSA-9822-6m93-xqf4",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-6274386",
+    "short_description": "XSS vulnerability in ActionController",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-26144",
+    "ghsa_identifier": "GHSA-8h22-8cf7-hq6g",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-6274388",
+    "short_description": "Session information leak in ActiveStorage",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-28103",
+    "ghsa_identifier": "GHSA-fwhr-88qx-h9g7",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-7210237",
+    "short_description": "Permissions-Policy is Only Served on HTML Content-Type",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-32464",
+    "ghsa_identifier": "GHSA-prjp-h48f-jgf6",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONTEXT-7210236",
+    "short_description": "XSS vulnerability in Trix",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-34341",
+    "ghsa_identifier": "GHSA-qjqp-xr96-cj99",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONTEXT-7247324",
+    "short_description": "Arbitrary code execution in Trix",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-41128",
+    "ghsa_identifier": "GHSA-x76w-6vjr-8xgj",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-8220162",
+    "short_description": "ReDoS in ActionDispatch's query parameter filter",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-47887",
+    "ghsa_identifier": "GHSA-vfg9-r3fq-jvx4",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-8220268",
+    "short_description": "ReDoS in ActionController's HTTP authentication",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-47888",
+    "ghsa_identifier": "GHSA-wwhv-wxv9-rpgw",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONTEXT-8220270",
+    "short_description": "ReDoS vulnerability in ActionText",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-53847",
+    "ghsa_identifier": "GHSA-6vx4-v2jw-qwqh",
+    "snyk_identifiers": "SNYK-JS-TRIX-8492396",
+    "short_description": "XSS in Trix/ActionText",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2024-54133",
+    "ghsa_identifier": "GHSA-vfm5-rmrh-j26v",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-8496389",
+    "short_description": "Content Security Policy bypass in ActionPack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  }
+]

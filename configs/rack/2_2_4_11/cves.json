@@ -1,0 +1,32 @@
+[
+  {
+    "cve_identifier": "CVE-2022-44570",
+    "ghsa_identifier": "GHSA-65f5-mfpf-vfhj",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237240",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44571",
+    "ghsa_identifier": "GHSA-93pm-5p5f-3ghx",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237233",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44572",
+    "ghsa_identifier": "GHSA-rqv2-275x-2jq5",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237237",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  }
+]

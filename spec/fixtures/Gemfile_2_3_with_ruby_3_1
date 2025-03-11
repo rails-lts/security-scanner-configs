@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+source 'https://gems.railslts.com' do
+  gem 'rails', '= 2.3.18.54'
+  gem 'actionmailer', '= 2.3.18.54',     :require => false
+  gem 'actionpack', '= 2.3.18.54',       :require => false
+  gem 'activerecord', '= 2.3.18.54',     :require => false
+  gem 'activeresource', '= 2.3.18.54',   :require => false
+  gem 'activesupport', '= 2.3.18.54',    :require => false
+  gem 'railties', '= 2.3.18.54',         :require => false
+  gem 'railslts-version', '= 2.3.18.54', :require => false
+  gem 'rack',                            :require => false
+end
+
+gem 'ruby3-backward-compatibility'

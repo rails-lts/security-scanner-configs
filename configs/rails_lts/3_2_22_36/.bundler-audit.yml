@@ -1,0 +1,79 @@
+---
+ignore:
+  - CVE-2011-2931
+  - CVE-2012-1099
+  - CVE-2012-2695
+  - CVE-2012-3464
+  - CVE-2012-3465
+  - CVE-2012-6496
+  - CVE-2013-0155
+  - CVE-2013-0156
+  - CVE-2013-0276
+  - CVE-2013-0277
+  - CVE-2013-1854
+  - CVE-2013-1855
+  - CVE-2013-1857
+  - CVE-2014-0080
+  - CVE-2014-0081
+  - CVE-2014-0130
+  - CVE-2014-3482
+  - CVE-2014-7818
+  - CVE-2015-3227
+  - CVE-2015-7576
+  - CVE-2015-7577
+  - CVE-2015-7578
+  - CVE-2015-7579
+  - CVE-2015-7580
+  - CVE-2015-7581
+  - CVE-2016-0751
+  - CVE-2016-0752
+  - CVE-2016-0753
+  - CVE-2016-2097
+  - CVE-2016-2098
+  - CVE-2016-6316
+  - CVE-2018-16476
+  - CVE-2018-16477
+  - CVE-2018-3760
+  - CVE-2019-16782
+  - CVE-2019-5418
+  - CVE-2019-5419
+  - CVE-2019-5420
+  - CVE-2020-15169
+  - CVE-2020-5267
+  - CVE-2020-8151
+  - CVE-2020-8162
+  - CVE-2020-8163
+  - CVE-2020-8164
+  # - CVE-2020-8165 # (PLEASE CHECK: If you see "POTENTIAL UNSAFE USE OF `CACHE.READ`" in your rails log, potential code changes are required (see https://mailchi.mp/railslts/rails-lts-potential-remote-code-execution-of-user-provided-local-names-cve-2020-5042374))
+  - CVE-2020-8166
+  - CVE-2020-8167
+  - CVE-2021-22880
+  - CVE-2021-22885 # (NOTE: Contains a potentially breaking change https://makandracards.com/railslts/498656-using-strings-in-polymorphic-helpers-cve-2021-22885, see https://mailchi.mp/railslts/rails-ltsmultiple-vulnerabilities-in-rails-cve-2021-22885-cve-2021-22904 for more information.)
+  - CVE-2021-22902
+  - CVE-2021-22903
+  - CVE-2021-22904
+  - CVE-2022-21831
+  - CVE-2022-22577
+  - CVE-2022-23633
+  - CVE-2022-27777
+  - CVE-2022-31163
+  # - CVE-2022-32224 # (PLEASE CHECK: Merged upstream bug fix for Psych >= 2.0 (which requires Ruby >= 1.9) for possible RCE escalation bug with Serialized Columns in Active Record. We tried to make it less of a breaking change than the official patch by adding a default set of permitted serializable classes. NOTE THIS PATCH HAS NO EFFECT FOR RUBIES < 2.1, see https://makandracards.com/railslts/521762-change-to-activerecord-deserialization-cve-2022-32224 for more details.)
+  - CVE-2022-3704
+  - CVE-2022-44566 # (NOTE: ActiveRecord will now throw an exception, if you pass an integer > 64bit. You can opt out using the config described in https://mailchi.mp/railslts/rails-lts-multiple-dos-vulnerabilities-in-rails-rack-and-globalid.)
+  - CVE-2023-22792
+  - CVE-2023-22794
+  - CVE-2023-22795
+  - CVE-2023-22796
+  - CVE-2023-22797
+  - CVE-2023-22799
+  # - CVE-2023-23913 # (PLEASE CHECK: Unfixed when using the jquery-rails gem or jquery_ujs npm package. See https://makandracards.com/railslts/541192-installation-instructions-rails-ujs-jquery-ujs.)
+  - CVE-2023-38037
+  - CVE-2024-26142
+  - CVE-2024-26143
+  - CVE-2024-26144
+  - CVE-2024-28103
+  - CVE-2024-32464
+  - CVE-2024-34341
+  - CVE-2024-47888
+  - CVE-2024-53847
+  - CVE-2024-54133
