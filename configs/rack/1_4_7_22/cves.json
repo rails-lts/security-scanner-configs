@@ -1,0 +1,162 @@
+[
+  {
+    "cve_identifier": "CVE-2018-16471",
+    "ghsa_identifier": "GHSA-5r2p-j47h-mhpg",
+    "snyk_identifiers": "SNYK-RUBY-RACK-72567",
+    "short_description": "XSS in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2020-8161",
+    "ghsa_identifier": "GHSA-5f9h-9pjv-v6j7",
+    "snyk_identifiers": "SNYK-RUBY-RACK-569066",
+    "short_description": "Directory traversal in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2020-8184",
+    "ghsa_identifier": "GHSA-j6w9-fv6q-3q52",
+    "snyk_identifiers": "SNYK-RUBY-RACK-572377",
+    "short_description": "CSRF in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-30122",
+    "ghsa_identifier": "GHSA-hxqx-xwvh-44m2",
+    "snyk_identifiers": "SNYK-RUBY-RACK-2848600",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-30123",
+    "ghsa_identifier": "GHSA-wq4h-7r42-5hrr",
+    "snyk_identifiers": "SNYK-RUBY-RACK-2848599",
+    "short_description": "Shell escape sequence injection vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44570",
+    "ghsa_identifier": "GHSA-65f5-mfpf-vfhj",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237240",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44571",
+    "ghsa_identifier": "GHSA-93pm-5p5f-3ghx",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237233",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44572",
+    "ghsa_identifier": "GHSA-rqv2-275x-2jq5",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237237",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2023-27530",
+    "ghsa_identifier": "GHSA-3h57-hmj3-gj3p",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3356639",
+    "short_description": "Backported fix for Rack to address a potential DoS attack with rack multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2023-27539",
+    "ghsa_identifier": "GHSA-c6qg-cjj8-47qp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3360233",
+    "short_description": "Backported fix for DoS vulnerability in Rack, see https://mailchi.mp/railslts/rails-lts-multiple-vulnerabilities-in-rails-and-rack for more details",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-25126",
+    "ghsa_identifier": "CVE-2024-25126",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274384",
+    "short_description": "ReDoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-26141",
+    "ghsa_identifier": "GHSA-xj5v-6v4g-jfw6",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274385",
+    "short_description": "DoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-26146",
+    "ghsa_identifier": "GHSA-54rr-7fvw-6x8f",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274383",
+    "short_description": "ReDoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-25184",
+    "ghsa_identifier": "GHSA-7g2v-jj9q-g3rg",
+    "snyk_identifiers": "SNYK-RUBY-RACK-8720151",
+    "short_description": "Possible log injection in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-27111",
+    "ghsa_identifier": "GHSA-8cgq-6mh2-7j6v",
+    "snyk_identifiers": "SNYK-RUBY-RACK-9058602",
+    "short_description": "Possible log injection in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-27610",
+    "ghsa_identifier": "",
+    "snyk_identifiers": "SNYK-RUBY-RACK-9398129",
+    "short_description": "Local file inclusion in `Rack::Static`",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  }
+]
