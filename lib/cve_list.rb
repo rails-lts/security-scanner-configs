@@ -168,6 +168,7 @@ module CveList
     '5.2.8.29',
     '5.2.8.30',
     '5.2.8.31',
+    '5.2.8.32',
   ].freeze
 
   LTS_VERSIONS_6_1 = [
@@ -181,6 +182,7 @@ module CveList
     '6.1.7.25',
     '6.1.7.26',
     '6.1.7.27',
+    '6.1.7.28',
   ].freeze
 
   LTS_VERSIONS = [
@@ -206,6 +208,7 @@ module CveList
     '1.4.7.21',
     '1.4.7.22',
     '1.4.7.23',
+    '1.4.7.24',
   ].freeze
 
   RACK_VERSIONS_1_6 = [
@@ -221,6 +224,7 @@ module CveList
     '1.6.13.19',
     '1.6.13.20',
     '1.6.13.21',
+    '1.6.13.22',
   ].freeze
 
   RACK_VERSIONS_2_2 = [
@@ -235,6 +239,7 @@ module CveList
     '2.2.12.10',
     '2.2.13.10',
     '2.2.14.10',
+    '2.2.17.10',
   ].freeze
 
   RACK_VERSIONS = [
