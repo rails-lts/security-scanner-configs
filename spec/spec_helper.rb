@@ -54,6 +54,7 @@ RSpec.configure do |config|
   config.before(:suite) do
     Rake.application.init
     Rake.application.load_rakefile
+    FileUtils.rm_rf('configs/')
     run_rake_task_muted('generate')
   end
 end
