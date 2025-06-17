@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 3.2.22.35 LTS
+# List of vulnerabilities addressed by Rails 3.2.22.35 LTS
 
-This is a known list of all known CVEs relevant for Rails 3.2.22.35 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 3.2.22.35 LTS.
 
 - CVE-2011-2931
   - XSS in strip_tags
@@ -288,4 +288,8 @@ This is a known list of all known CVEs relevant for Rails 3.2.22.35 LTS.
 
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2025-24293
+  - ActiveStorage potential unsafe transformation methods
   - NOTE: Rails LTS was not affected by this CVE.

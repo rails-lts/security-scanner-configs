@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rack 2.2.8.10 LTS
+# List of vulnerabilities addressed by Rack 2.2.8.10 LTS
 
-This is a known list of all known CVEs relevant for Rack 2.2.8.10 LTS.
+This is a known list of all known vulnerabilities relevant for Rack 2.2.8.10 LTS.
 
 - CVE-2022-44570
   - ReDos in Rack
