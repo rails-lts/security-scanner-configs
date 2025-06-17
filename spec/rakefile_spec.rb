@@ -19,11 +19,6 @@ RSpec.describe 'Rakefile integration' do
     end
   end
 
-  before(:suite) do
-    FileUtils.rm_rf('configs/') # clear all configs
-    run_rake_task_muted('generate')
-  end
-
   describe 'snyk configs' do
     it 'are built for every LTS version in a separate folder' do
       file_exists_for_all_lts_versions('.snyk')
