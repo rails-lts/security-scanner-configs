@@ -998,5 +998,15 @@
     "requires_intervention": false,
     "unaffected": true,
     "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2025-24293",
+    "ghsa_identifier": "GHSA-r4mg-4433-c7g3",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-11800135",
+    "short_description": "ActiveStorage potential unsafe transformation methods",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
   }
 ]

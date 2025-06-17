@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 5.2.8.22 LTS
+# List of vulnerabilities addressed by Rails 5.2.8.22 LTS
 
-This is a known list of all known CVEs relevant for Rails 5.2.8.22 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 5.2.8.22 LTS.
 
 - CVE-2012-1099
   - XSS in select tag options

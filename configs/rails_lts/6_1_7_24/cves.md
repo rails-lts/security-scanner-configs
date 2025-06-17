@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 6.1.7.24 LTS
+# List of vulnerabilities addressed by Rails 6.1.7.24 LTS
 
-This is a known list of all known CVEs relevant for Rails 6.1.7.24 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 6.1.7.24 LTS.
 
 - CVE-2012-1099
   - XSS in select tag options

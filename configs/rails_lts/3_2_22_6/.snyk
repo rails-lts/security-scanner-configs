@@ -258,4 +258,8 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
+  SNYK-RUBY-ACTIVESTORAGE-11800135:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
 patch: {}

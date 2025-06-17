@@ -7,6 +7,8 @@ module CveList
         ignores = +''
 
         patch_list.each do |patch|
+          next if patch.snyk_only?
+
           ignores << if patch.patch_note?
             if patch.requires_intervention?
               "# - #{patch.cve_identifier} # (PLEASE CHECK: #{patch.patch_note})\n"
