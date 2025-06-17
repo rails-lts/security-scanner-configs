@@ -8,13 +8,15 @@ RSpec.describe CveList do
       cve = YAML.load_file(cve_path)
 
       expect(cve).to have_key('cve_identifier')
-      expect(cve['cve_identifier']).to eq(File.basename(cve_path, '.yml'))
+      # there's a single snyk id that doesn't have an official cve id
+      expect(cve['cve_identifier']).to eq(File.basename(cve_path, '.yml')).or(be_nil)
 
       expect(cve).to have_key('snyk_identifiers')
       expect(cve['snyk_identifiers']).to be_a(Array)
 
       expect(cve).to have_key('ghsa_identifier')
-      expect(cve['ghsa_identifier']).to be_a(String)
+      # there's a single snyk id that doesn't have an official cve id
+      expect(cve['ghsa_identifier']).to be_a(String).or(be_nil)
 
       expect(cve).to have_key('short_description')
       expect(cve['short_description']).to be_a(String)

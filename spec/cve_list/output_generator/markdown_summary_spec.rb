@@ -34,9 +34,9 @@ RSpec.describe CveList::OutputGenerator::MarkdownSummary do
   describe '.generate_sample_config' do
     it 'generates a markdown summary file' do
       expect(described_class.generate_sample_config(patch_list, '5.2.8.23', :rails)).to eq(<<~MARKDOWN)
-        # List of CVEs addressed by Rails 5.2.8.23 LTS
+        # List of vulnerabilities addressed by Rails 5.2.8.23 LTS
 
-        This is a known list of all known CVEs relevant for Rails 5.2.8.23 LTS.
+        This is a known list of all known vulnerabilities relevant for Rails 5.2.8.23 LTS.
 
         - CVE-2012-1099
           - XSS in select tag options

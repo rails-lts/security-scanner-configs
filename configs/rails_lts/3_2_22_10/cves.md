@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 3.2.22.10 LTS
+# List of vulnerabilities addressed by Rails 3.2.22.10 LTS
 
-This is a known list of all known CVEs relevant for Rails 3.2.22.10 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 3.2.22.10 LTS.
 
 - CVE-2011-2931
   - XSS in strip_tags

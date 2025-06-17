@@ -169,6 +169,7 @@ module CveList
     '5.2.8.30',
     '5.2.8.31',
     '5.2.8.32',
+    '5.2.8.33',
   ].freeze
 
   LTS_VERSIONS_6_1 = [
@@ -183,6 +184,7 @@ module CveList
     '6.1.7.26',
     '6.1.7.27',
     '6.1.7.28',
+    '6.1.7.29',
   ].freeze
 
   LTS_VERSIONS = [

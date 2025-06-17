@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 2.3.18.35 LTS
+# List of vulnerabilities addressed by Rails 2.3.18.35 LTS
 
-This is a known list of all known CVEs relevant for Rails 2.3.18.35 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 2.3.18.35 LTS.
 
 - CVE-2011-1497
   - XSS in auto_link method

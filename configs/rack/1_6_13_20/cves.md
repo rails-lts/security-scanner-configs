@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rack 1.6.13.20 LTS
+# List of vulnerabilities addressed by Rack 1.6.13.20 LTS
 
-This is a known list of all known CVEs relevant for Rack 1.6.13.20 LTS.
+This is a known list of all known vulnerabilities relevant for Rack 1.6.13.20 LTS.
 
 - CVE-2018-16471
   - XSS in Rack
