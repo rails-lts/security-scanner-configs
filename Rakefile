@@ -15,3 +15,6 @@ require_relative 'lib/tasks/generator'
 RSpec::Core::RakeTask.new(:spec)
 
 task default: %i[spec]
+
+require 'bundler/audit/task'
+Bundler::Audit::Task.new
