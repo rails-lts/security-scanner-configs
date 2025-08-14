@@ -23,7 +23,7 @@ module CveList
             end
           end
 
-          patches.sort_by(&:cve_identifier)
+          patches.sort_by { |patch| patch.cve_identifier || patch.snyk_identifiers[0] }
         end
 
         private
@@ -70,6 +70,10 @@ module CveList
 
       def requires_intervention?
         !!@requires_intervention
+      end
+
+      def snyk_only?
+        @cve_identifier.nil?
       end
     end
   end

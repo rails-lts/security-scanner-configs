@@ -6,7 +6,7 @@ module CveList
       def self.generate_sample_config(patch_list, _lts_version, rails_or_rack)
         patch_list = patch_list.map do |patch|
           {
-            cve_identifier: patch.cve_identifier,
+            cve_identifier: patch.snyk_only? ? nil : patch.cve_identifier,
             ghsa_identifier: patch.ghsa_identifier,
             snyk_identifiers: patch.snyk_identifiers.join(', '),
             short_description: patch.short_description,

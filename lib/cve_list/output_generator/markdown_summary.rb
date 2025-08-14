@@ -22,6 +22,12 @@ module CveList
                 - NOTE: #{rails_or_rack} LTS was not affected by this CVE.
 
             MARKDOWN
+          elsif patch.snyk_only?
+            <<~MARKDOWN
+              - #{patch.snyk_identifiers[0]}
+                - #{patch.short_description}
+                - NOTE: Snyk only, no public CVE available.
+            MARKDOWN
           else
             <<~MARKDOWN
               - #{patch.cve_identifier}
@@ -32,9 +38,9 @@ module CveList
         end
 
         <<~MARKDOWN.delete_suffix("\n\n")
-          # List of CVEs addressed by #{rails_or_rack} #{lts_version} LTS
+          # List of vulnerabilities addressed by #{rails_or_rack} #{lts_version} LTS
 
-          This is a known list of all known CVEs relevant for #{rails_or_rack} #{lts_version} LTS.
+          This is a known list of all known vulnerabilities relevant for #{rails_or_rack} #{lts_version} LTS.
 
           #{items}
         MARKDOWN

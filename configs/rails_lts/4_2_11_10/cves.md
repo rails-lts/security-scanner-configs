@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 4.2.11.10 LTS
+# List of vulnerabilities addressed by Rails 4.2.11.10 LTS
 
-This is a known list of all known CVEs relevant for Rails 4.2.11.10 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 4.2.11.10 LTS.
 
 - CVE-2012-1099
   - XSS in select tag options
@@ -207,4 +207,8 @@ This is a known list of all known CVEs relevant for Rails 4.2.11.10 LTS.
 
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2025-24293
+  - ActiveStorage potential unsafe transformation methods
   - NOTE: Rails LTS was not affected by this CVE.

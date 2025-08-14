@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rack 1.4.7.23 LTS
+# List of vulnerabilities addressed by Rack 1.4.7.23 LTS
 
-This is a known list of all known CVEs relevant for Rack 1.4.7.23 LTS.
+This is a known list of all known vulnerabilities relevant for Rack 1.4.7.23 LTS.
 
 - CVE-2018-16471
   - XSS in Rack
