@@ -280,6 +280,14 @@ ignore:
     - '*':
         reason: Fixed in Rails LTS
         expires: false
+  SNYK-RUBY-ACTIVESTORAGE-11800135:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-11800112:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
   SNYK-RUBY-ACTIONCABLE-20338:
     - '*':
         reason: Fixed in Rails LTS

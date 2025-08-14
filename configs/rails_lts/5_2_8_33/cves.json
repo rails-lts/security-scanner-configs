@@ -680,6 +680,26 @@
     "gem": "rails"
   },
   {
+    "cve_identifier": "CVE-2025-24293",
+    "ghsa_identifier": "GHSA-r4mg-4433-c7g3",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-11800135",
+    "short_description": "ActiveStorage potential unsafe transformation methods",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2025-55193",
+    "ghsa_identifier": "GHSA-76r7-hhxj-r776",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-11800112",
+    "short_description": "ANSI escape injection in ActiveRecord",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rails"
+  },
+  {
     "cve_identifier": null,
     "ghsa_identifier": null,
     "snyk_identifiers": "SNYK-RUBY-ACTIONCABLE-20338",

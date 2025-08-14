@@ -269,6 +269,12 @@ This is a known list of all known vulnerabilities relevant for Rails 6.1.7.29 LT
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
 
+- CVE-2025-24293
+  - ActiveStorage potential unsafe transformation methods
+
+- CVE-2025-55193
+  - ANSI escape injection in ActiveRecord
+
 - SNYK-RUBY-ACTIONCABLE-20338
   - ActionCable does not filter sensitive data in logs in early versions of ActionCable.
   - NOTE: Snyk only, no public CVE available.

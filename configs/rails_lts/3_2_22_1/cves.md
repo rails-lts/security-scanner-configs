@@ -217,3 +217,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.1 LT
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2025-24293
+  - ActiveStorage potential unsafe transformation methods
+  - NOTE: Rails LTS was not affected by this CVE.

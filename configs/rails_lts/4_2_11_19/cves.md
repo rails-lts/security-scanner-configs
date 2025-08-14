@@ -229,3 +229,7 @@ This is a known list of all known vulnerabilities relevant for Rails 4.2.11.19 L
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2025-24293
+  - ActiveStorage potential unsafe transformation methods
+  - NOTE: Rails LTS was not affected by this CVE.
