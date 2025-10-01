@@ -6,14 +6,14 @@ load 'Rakefile'
 RSpec.describe 'Rakefile integration' do
 
   def file_exists_for_all_lts_versions(filename)
-    CveList::LTS_VERSIONS.each do |version|
+    LTS_VERSIONS.each do |version|
       folder_name = version.gsub('.', '_')
       expect(File.exist?("configs/rails_lts/#{folder_name}/#{filename}")).to eq(true), "#{folder_name}/#{filename} is missing"
     end
   end
 
   def file_exists_for_all_rack_versions(filename)
-    CveList::RACK_VERSIONS.each do |version|
+    RACK_VERSIONS.each do |version|
       folder_name = version.gsub('.', '_')
       expect(File.exist?("configs/rack/#{folder_name}/#{filename}")).to eq(true), "#{folder_name}/#{filename} is missing"
     end

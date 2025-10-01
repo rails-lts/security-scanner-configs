@@ -9,8 +9,8 @@ require 'rake/clean'
 CLOBBER.include('configs/')
 
 require_relative 'lib/cve_list'
-require_relative 'lib/tasks/new_cve'
-require_relative 'lib/tasks/generator'
+require_relative 'lib/tasks/add_cve'
+require_relative 'lib/tasks/generate_configs'
 
 RSpec::Core::RakeTask.new(:spec)
 
