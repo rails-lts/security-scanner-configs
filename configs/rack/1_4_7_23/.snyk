@@ -69,4 +69,8 @@ ignore:
     - '*':
         reason: Fixed in Rack LTS
         expires: false
+  SNYK-RUBY-RACK-13052974:
+    - '*':
+        reason: Does not affect Rack LTS
+        expires: false
 patch: {}

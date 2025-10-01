@@ -31,3 +31,7 @@ This is a known list of all known CVEs relevant for Rack 2.2.13.10 LTS.
 
 - CVE-2025-27610
   - Local file inclusion in `Rack::Static`
+
+- CVE-2025-59830
+  - Params Limit Bypass in Rack
+  - NOTE: Rack LTS was not affected by this CVE.
