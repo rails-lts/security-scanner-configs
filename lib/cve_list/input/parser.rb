@@ -1,6 +1,9 @@
 module CveList
   module Input
+
     class Parser
+      MissingPatchNoteError = Class.new(StandardError)
+
       class << self
         def patch_list(group, lts_version)
           lts_version = Gem::Version.new(lts_version) unless lts_version.is_a?(Gem::Version)
@@ -58,6 +61,10 @@ module CveList
         @patch_note = patch_note
         @unaffected = unaffected
         @requires_intervention = requires_intervention
+
+        if @requires_intervention && patch_note.strip.empty?
+          raise MissingPatchNoteError, 'Patch note is mandatory when intervention is required'
+        end
       end
 
       def patch_note?

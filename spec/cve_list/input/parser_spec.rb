@@ -2,7 +2,26 @@
 
 module CveList
   module Input
+
     RSpec.describe Parser do
+
+      describe '#initialize' do
+        it 'raises an error if a CVE requires intervention without a patch note' do
+          expect do
+            described_class.new(
+              requires_intervention: true,
+              patch_note: ' ',
+              # Fields irrelevant for this test:
+              cve_identifier: 'cve',
+              snyk_identifiers: %w[snyk],
+              short_description: 'issue',
+              ghsa_identifier: 'github',
+              unaffected: [],
+            )
+          end.to raise_error Parser::MissingPatchNoteError
+        end
+      end
+
       describe '.patch_list' do
         it 'includes patches fixed in a certain CVE version' do
           patch_list = described_class.patch_list('rails_lts', '5.2.8.15')
@@ -37,6 +56,8 @@ module CveList
           expect(patch_list.map(&:cve_identifier)).not_to include('CVE-2022-44570')
         end
       end
+
     end
+
   end
 end
