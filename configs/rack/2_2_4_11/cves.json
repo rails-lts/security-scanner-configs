@@ -32,7 +32,7 @@
   {
     "cve_identifier": "CVE-2025-59830",
     "ghsa_identifier": "GHSA-625h-95r8-8xpm",
-    "snyk_identifiers": "SNYK-UBUNTU2504-RUBYRACK-13096411",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13052974",
     "short_description": "Params Limit Bypass in Rack",
     "patch_note": null,
     "requires_intervention": false,

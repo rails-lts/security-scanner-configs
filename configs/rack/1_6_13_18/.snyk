@@ -57,7 +57,7 @@ ignore:
     - '*':
         reason: Fixed in Rack LTS
         expires: false
-  SNYK-UBUNTU2504-RUBYRACK-13096411:
+  SNYK-RUBY-RACK-13052974:
     - '*':
         reason: Does not affect Rack LTS
         expires: false
