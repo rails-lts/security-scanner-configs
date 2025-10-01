@@ -19,3 +19,7 @@ This is a known list of all known CVEs relevant for Rack 2.2.6.14 LTS.
 
 - CVE-2024-26146
   - ReDoS vulnerability in Rack
+
+- CVE-2025-59830
+  - Params Limit Bypass in Rack
+  - NOTE: Rack LTS was not affected by this CVE.

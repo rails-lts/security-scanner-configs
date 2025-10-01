@@ -59,3 +59,7 @@ This is a known list of all known CVEs relevant for Rack 1.6.13.22 LTS.
 
 - CVE-2025-49007
   - Rack has an Unbounded-Parameter DoS in Rack::QueryParser
+
+- CVE-2025-59830
+  - Params Limit Bypass in Rack
+  - NOTE: Rack LTS was not affected by this CVE.
