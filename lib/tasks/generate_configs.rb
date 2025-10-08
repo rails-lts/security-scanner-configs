@@ -14,7 +14,7 @@ def define_generate_rake_tasks_for(task_name, file_name, generator_class)
   CveList::LTS_VERSIONS.each do |lts_version|
     lts_dir = "configs/rails_lts/#{lts_version.gsub('.', '_')}"
     file "#{lts_dir}/#{file_name}" => [lts_dir, *FileList.new('lib/cves/rails_lts/*.yml')] do |task|
-      puts "Building #{file_name} files"
+      puts "Writing #{task.name}"
 
       patch_list = CveList::Input::Parser.patch_list('rails_lts', lts_version)
 
@@ -26,7 +26,7 @@ def define_generate_rake_tasks_for(task_name, file_name, generator_class)
   CveList::RACK_VERSIONS.each do |lts_version|
     lts_dir = "configs/rack/#{lts_version.gsub('.', '_')}"
     file "#{lts_dir}/#{file_name}" => [lts_dir, *FileList.new('lib/cves/rack/*.yml')] do |task|
-      puts "Building #{file_name} files"
+      puts "Writing #{task.name}"
 
       patch_list = CveList::Input::Parser.patch_list('rack', lts_version)
 
@@ -51,8 +51,9 @@ define_generate_rake_tasks_for(:bundler_audit, '.bundler-audit.yml', CveList::Ou
 define_generate_rake_tasks_for(:markdown, 'cves.md', CveList::OutputGenerator::MarkdownSummary)
 define_generate_rake_tasks_for(:json, 'cves.json', CveList::OutputGenerator::JsonSummary)
 
-desc 'Generate all artifacts'
-task generate: ['generate:snyk', 'generate:bundler_audit', 'generate:markdown', 'generate:json']
+# API tasks
+desc 'Generate missing configs'
+task generate_configs: ['generate:snyk', 'generate:bundler_audit', 'generate:markdown', 'generate:json']
 
-desc 'Regenerate all artifacts'
-task regenerate: [:clobber, :generate]
+desc 'Regenerate all configs'
+task regenerate_all_configs: [:clobber, :generate_configs]

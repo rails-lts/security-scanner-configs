@@ -9,12 +9,14 @@ require 'rake/clean'
 CLOBBER.include('configs/')
 
 require_relative 'lib/cve_list'
-require_relative 'lib/tasks/new_cve'
-require_relative 'lib/tasks/generator'
+require_relative 'lib/tasks/add_cve'
+require_relative 'lib/tasks/generate_configs'
 
-RSpec::Core::RakeTask.new(:spec)
+RSpec::Core::RakeTask.new(:spec) do |task|
+  task.pattern = 'spec'
+end
 
-task default: %i[spec]
+task default: %w[bundle:audit:update spec]
 
 require 'bundler/audit/task'
 Bundler::Audit::Task.new
