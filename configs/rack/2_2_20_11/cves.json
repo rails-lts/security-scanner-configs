@@ -1,0 +1,152 @@
+[
+  {
+    "cve_identifier": "CVE-2022-44570",
+    "ghsa_identifier": "GHSA-65f5-mfpf-vfhj",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237240",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44571",
+    "ghsa_identifier": "GHSA-93pm-5p5f-3ghx",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237233",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44572",
+    "ghsa_identifier": "GHSA-rqv2-275x-2jq5",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237237",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2023-27530",
+    "ghsa_identifier": "GHSA-3h57-hmj3-gj3p",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3356639",
+    "short_description": "Backported fix for Rack to address a potential DoS attack with rack multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2023-27539",
+    "ghsa_identifier": "GHSA-c6qg-cjj8-47qp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3360233",
+    "short_description": "Backported fix for DoS vulnerability in Rack, see https://mailchi.mp/railslts/rails-lts-multiple-vulnerabilities-in-rails-and-rack for more details",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-25126",
+    "ghsa_identifier": "CVE-2024-25126",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274384",
+    "short_description": "ReDoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-26141",
+    "ghsa_identifier": "GHSA-xj5v-6v4g-jfw6",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274385",
+    "short_description": "DoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-26146",
+    "ghsa_identifier": "GHSA-54rr-7fvw-6x8f",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274383",
+    "short_description": "ReDoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-25184",
+    "ghsa_identifier": "GHSA-7g2v-jj9q-g3rg",
+    "snyk_identifiers": "SNYK-RUBY-RACK-8720151",
+    "short_description": "Possible log injection in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-59830",
+    "ghsa_identifier": "GHSA-625h-95r8-8xpm",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13052974",
+    "short_description": "Params Limit Bypass in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61770",
+    "ghsa_identifier": "GHSA-p543-xpfm-54cp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13378932",
+    "short_description": "Rack's unbounded multipart preamble buffering enables DoS (memory exhaustion)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61771",
+    "ghsa_identifier": "GHSA-w9pc-fmgc-vxvw",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13378930",
+    "short_description": "Rack's multipart parser buffers large non‑file fields entirely in memory, enabling DoS (memory exhaustion)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61772",
+    "ghsa_identifier": "GHSA-wpv5-97wm-hp9c",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13378928",
+    "short_description": "Rack's multipart parser buffers unbounded per-part headers, enabling DoS (memory exhaustion)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61780",
+    "ghsa_identifier": "GHSA-r657-rxjc-j557",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13524628",
+    "short_description": "Rack has a Possible Information Disclosure Vulnerability",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61919",
+    "ghsa_identifier": "GHSA-6xw4-3v39-52mm",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13535097",
+    "short_description": "Unbounded read in Rack::Request form parsing can lead to memory exhaustion",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  }
+]

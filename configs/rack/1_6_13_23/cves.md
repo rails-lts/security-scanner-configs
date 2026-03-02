@@ -72,3 +72,7 @@ This is a known list of all known CVEs relevant for Rack 1.6.13.23 LTS.
 
 - CVE-2025-61772
   - Rack's multipart parser buffers unbounded per-part headers, enabling DoS (memory exhaustion)
+
+- CVE-2026-22860
+  - Directory traversal in Rack::Directory
+  - NOTE: Rack LTS was not affected by this CVE.

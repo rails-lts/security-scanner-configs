@@ -248,5 +248,15 @@
     "requires_intervention": false,
     "unaffected": false,
     "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-22860",
+    "ghsa_identifier": "GHSA-mxw3-3hh2-x2mh",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15307669",
+    "short_description": "Directory traversal in Rack::Directory",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
   }
 ]

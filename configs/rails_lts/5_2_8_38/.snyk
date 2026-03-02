@@ -1,0 +1,283 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore:
+  SNYK-RUBY-ACTIONPACK-20024:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-RAILS-472697:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESUPPORT-20036:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20038:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-20044:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-20046:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20047:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-20062:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-20061:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-20088:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20090:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20087:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20147:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20158:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-20185:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20198:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESUPPORT-20229:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-RAILSHTMLSANITIZER-20254:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20256:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVEMODEL-20260:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-20263:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-20264:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-20271:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-RACK-538324:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-173784:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-173783:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-632514:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-560837:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-569156:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESUPPORT-569598:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-569599:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-569601:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-1290051:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-1290053:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-1290054:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-1290052:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESTORAGE-2420035:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-2803847:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-2400638:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONVIEW-2803851:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-TZINFO-2958048:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  # NOTE Backported fix for possible RCE escalation bug with Serialized Columns in Active Record. We tried to make it less of a breaking change than the official patch by adding a default set of permitted serializable classes. See https://makandracards.com/railslts/521762-change-to-activerecord-deserialization-cve-2022-32224 for more details.
+  SNYK-RUBY-ACTIVERECORD-2960802:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-3086619:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  # NOTE ActiveRecord will now throw an exception, if you pass an integer > 64bit. You can opt out using the config described in https://mailchi.mp/railslts/rails-lts-multiple-dos-vulnerabilities-in-rails-rack-and-globalid.
+  SNYK-RUBY-ACTIVERECORD-3237239:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-3237232:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVERECORD-3237236:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-3237231:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESUPPORT-3237242:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-3237230:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-GLOBALID-3237234:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  # PLEASE CHECK Unfixed when using the rails-ujs npm package. Fixed for the bundled `rails-ujs` package for version >= 5.2.8.17. See https://makandracards.com/railslts/541192-installation-instructions-rails-ujs-jquery-ujs.
+  # SNYK-RUBY-RAILS-5291540:
+  #   - '*':
+  #       reason: Fixed in Rails LTS
+  #       expires: false
+  SNYK-RUBY-ACTIVESUPPORT-3360028:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-5741907:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-URI-5291533:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-TIME-5351802:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-RAILTIES-5851410:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESUPPORT-5851458:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-6274387:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-6274386:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-6274388:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-7210237:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONTEXT-7210236:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONTEXT-7247324:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-8220162:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-8220268:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONTEXT-8220270:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONMAILER-8220269:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+  SNYK-JS-TRIX-8492396:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIONPACK-8496389:
+    - '*':
+        reason: Fixed in Rails LTS
+        expires: false
+patch: {}
