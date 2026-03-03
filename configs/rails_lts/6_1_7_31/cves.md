@@ -1,6 +1,6 @@
-# List of CVEs addressed by Rails 6.1.7.31 LTS
+# List of vulnerabilities addressed by Rails 6.1.7.31 LTS
 
-This is a known list of all known CVEs relevant for Rails 6.1.7.31 LTS.
+This is a known list of all known vulnerabilities relevant for Rails 6.1.7.31 LTS.
 
 - CVE-2012-1099
   - XSS in select tag options
@@ -268,3 +268,13 @@ This is a known list of all known CVEs relevant for Rails 6.1.7.31 LTS.
 
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
+
+- CVE-2025-24293
+  - ActiveStorage potential unsafe transformation methods
+
+- CVE-2025-55193
+  - ANSI escape injection in ActiveRecord
+
+- SNYK-RUBY-ACTIONCABLE-20338
+  - ActionCable does not filter sensitive data in logs in early versions of ActionCable.
+  - NOTE: Snyk only, no public CVE available.
