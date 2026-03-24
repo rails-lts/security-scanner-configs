@@ -371,3 +371,27 @@ This is a known list of all known vulnerabilities relevant for Rails 2.3.18.47 L
 - CVE-2025-24293
   - ActiveStorage potential unsafe transformation methods
   - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33167
+  - Rails has a possible XSS vulnerability in its Action Pack debug exceptions
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33170
+  - Rails Active Support has a possible XSS vulnerability in SafeBuffer#%
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33173
+  - Rails Active Storage has possible content type bypass via metadata in direct uploads
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33174
+  - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33195
+  - Rails Active Storage has possible Path Traversal in DiskService
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33202
+  - Rails Active Storage has possible glob injection in its DiskService
+  - NOTE: Rails LTS was not affected by this CVE.

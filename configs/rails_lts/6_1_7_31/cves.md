@@ -275,6 +275,14 @@ This is a known list of all known vulnerabilities relevant for Rails 6.1.7.31 LT
 - CVE-2025-55193
   - ANSI escape injection in ActiveRecord
 
+- CVE-2026-33167
+  - Rails has a possible XSS vulnerability in its Action Pack debug exceptions
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33174
+  - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
+  - NOTE: Rails LTS was not affected by this CVE.
+
 - SNYK-RUBY-ACTIONCABLE-20338
   - ActionCable does not filter sensitive data in logs in early versions of ActionCable.
   - NOTE: Snyk only, no public CVE available.

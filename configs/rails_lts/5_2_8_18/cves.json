@@ -618,5 +618,25 @@
     "requires_intervention": false,
     "unaffected": true,
     "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2026-33167",
+    "ghsa_identifier": "GHSA-pgm4-439c-5jp6",
+    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-15762703",
+    "short_description": "Rails has a possible XSS vulnerability in its Action Pack debug exceptions",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2026-33174",
+    "ghsa_identifier": "GHSA-r46p-8f7g-vvvg",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-15762698",
+    "short_description": "Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
   }
 ]
