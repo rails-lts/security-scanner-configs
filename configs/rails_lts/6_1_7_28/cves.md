@@ -268,3 +268,11 @@ This is a known list of all known vulnerabilities relevant for Rails 6.1.7.28 LT
 
 - CVE-2024-54133
   - Content Security Policy bypass in ActionPack
+
+- CVE-2026-33167
+  - Rails has a possible XSS vulnerability in its Action Pack debug exceptions
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-33174
+  - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
+  - NOTE: Rails LTS was not affected by this CVE.

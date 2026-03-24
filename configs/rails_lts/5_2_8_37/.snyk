@@ -288,6 +288,14 @@ ignore:
     - '*':
         reason: Fixed in Rails LTS
         expires: false
+  SNYK-RUBY-ACTIONPACK-15762703:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESTORAGE-15762698:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
   SNYK-RUBY-ACTIONCABLE-20338:
     - '*':
         reason: Fixed in Rails LTS

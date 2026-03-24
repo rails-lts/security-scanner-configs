@@ -326,4 +326,28 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
+  SNYK-RUBY-ACTIONPACK-15762703:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESUPPORT-15762701:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESTORAGE-15762293:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESTORAGE-15762698:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESTORAGE-15762290:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
+  SNYK-RUBY-ACTIVESTORAGE-15762282:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
 patch: {}
