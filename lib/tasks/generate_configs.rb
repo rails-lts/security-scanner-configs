@@ -52,8 +52,22 @@ define_generate_rake_tasks_for(:markdown, 'cves.md', CveList::OutputGenerator::M
 define_generate_rake_tasks_for(:json, 'cves.json', CveList::OutputGenerator::JsonSummary)
 
 # API tasks
+desc 'Validate CVE files'
+task :validate_cves do
+  files = CveList::Input::NewCveFiles.detect
+  next if files.empty?
+
+  files.each do |path|
+    if File.read(path).match?(/todo/i)
+      raise "#{path} still contains TODO placeholders"
+    end
+  end
+
+  CveList::VersionsCoverageValidator.validate!(files)
+end
+
 desc 'Generate missing configs'
-task generate_configs: ['generate:snyk', 'generate:bundler_audit', 'generate:markdown', 'generate:json']
+task generate_configs: ['validate_cves', 'generate:snyk', 'generate:bundler_audit', 'generate:markdown', 'generate:json']
 
 desc 'Regenerate all configs'
 task regenerate_all_configs: [:clobber, :generate_configs]
