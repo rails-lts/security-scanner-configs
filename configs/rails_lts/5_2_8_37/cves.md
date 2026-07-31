@@ -269,6 +269,10 @@ This is a known list of all known vulnerabilities relevant for Rails 5.2.8.37 LT
   - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
   - NOTE: Rails LTS was not affected by this CVE.
 
+- CVE-2026-66066
+  - Arbitrary file read and remote code execution in ActiveStorage
+  - NOTE: Rails LTS was not affected by this CVE.
+
 - SNYK-RUBY-ACTIONCABLE-20338
   - ActionCable does not filter sensitive data in logs in early versions of ActionCable.
   - NOTE: Snyk only, no public CVE available.

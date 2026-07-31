@@ -244,3 +244,7 @@ This is a known list of all known vulnerabilities relevant for Rails 5.2.8.19 LT
 - CVE-2026-33174
   - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
   - NOTE: Rails LTS was not affected by this CVE.
+
+- CVE-2026-66066
+  - Arbitrary file read and remote code execution in ActiveStorage
+  - NOTE: Rails LTS was not affected by this CVE.

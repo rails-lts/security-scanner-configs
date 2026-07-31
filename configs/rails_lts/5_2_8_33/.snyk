@@ -296,6 +296,10 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
+  SNYK-RUBY-ACTIVESTORAGE-18426060:
+    - '*':
+        reason: Does not affect Rails LTS
+        expires: false
   SNYK-RUBY-ACTIONCABLE-20338:
     - '*':
         reason: Fixed in Rails LTS

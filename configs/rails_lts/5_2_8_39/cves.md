@@ -290,6 +290,10 @@ This is a known list of all known vulnerabilities relevant for Rails 5.2.8.39 LT
 - CVE-2026-33202
   - Rails Active Storage has possible glob injection in its DiskService
 
+- CVE-2026-66066
+  - Arbitrary file read and remote code execution in ActiveStorage
+  - NOTE: Rails LTS was not affected by this CVE.
+
 - SNYK-RUBY-ACTIONCABLE-20338
   - ActionCable does not filter sensitive data in logs in early versions of ActionCable.
   - NOTE: Snyk only, no public CVE available.
