@@ -768,5 +768,15 @@
     "requires_intervention": false,
     "unaffected": true,
     "gem": "rails"
+  },
+  {
+    "cve_identifier": "CVE-2026-66066",
+    "ghsa_identifier": "GHSA-xr9x-r78c-5hrm",
+    "snyk_identifiers": "SNYK-RUBY-ACTIVESTORAGE-18426060",
+    "short_description": "Arbitrary file read and remote code execution in ActiveStorage",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
   }
 ]

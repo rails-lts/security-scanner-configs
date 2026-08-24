@@ -55,6 +55,8 @@ RSpec.configure do |config|
     Rake.application.init
     Rake.application.load_rakefile
     FileUtils.rm_rf('configs/')
-    run_rake_task_muted('generate_configs')
+    %w[generate:snyk generate:bundler_audit generate:markdown generate:json].each do |task_name|
+      run_rake_task_muted(task_name)
+    end
   end
 end

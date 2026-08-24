@@ -39,9 +39,11 @@ In case you have you have an existing .bundler-audit.yml, you would have to merg
 
 ## Updating
 
-1. Add new versions of Rails LTS and Rack to lib/versions.rb.
-2. Create CVE files with `bundle exec rake add_cve`, then update the generated files with all required information.
+1. Add new versions of Rails LTS and Rack to [`lib/cve_list/versions.rb`](lib/cve_list/versions.rb).
+2. Create CVE files with `bundle exec rake add_cve`, then fill in all required information.
 3. Run `bundle exec rake generate_configs` to generate new configurations.
+
+Before generating configs, new CVE files are validated. To validate *all* CVE files, run: `VALIDATE_CVES_ALL=1 bundle exec rake validate_cves`
 
 ### Running tests
 Use `rake` to run all specs.
@@ -49,6 +51,6 @@ Use `rake` to run all specs.
 
 ## Further information
 
-Please also see our [official documenation](https://makandracards.com/railslts).
+Please also see our [official documentation](https://makandracards.com/railslts).
 
 If you encounter any issues, [please contact us via email](mailto:railslts-maintainers@makandra.de).
