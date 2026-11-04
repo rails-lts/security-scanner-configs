@@ -1,0 +1,13 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-rq8q-p985-fjq7
+short_description: Possible XSS vulnerability in Action View strip_tags
+unaffected_versions:
+  - '< 7'
+affected_versions:
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: ~
+    requires_intervention: false

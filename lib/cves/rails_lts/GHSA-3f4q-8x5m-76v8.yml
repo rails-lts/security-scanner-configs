@@ -1,0 +1,17 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-3f4q-8x5m-76v8
+short_description: Possible local file disclosure in Active Storage video previews and analysis
+unaffected_versions:
+  - '< 5'
+affected_versions:
+  - '>= 5, < 5.2.8.46'
+  - '>= 6, < 6.1.7.42'
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '~> 5.2.8.46'
+    - '~> 6.1.7.42'
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: ~
+    requires_intervention: false

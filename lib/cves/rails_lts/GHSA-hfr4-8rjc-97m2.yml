@@ -1,0 +1,17 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-hfr4-8rjc-97m2
+short_description: Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage
+unaffected_versions:
+  - '< 5'
+affected_versions:
+  - '>= 5, < 5.2.8.46'
+  - '>= 6, < 6.1.7.42'
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '~> 5.2.8.46'
+    - '~> 6.1.7.42'
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: Browsers now send x-goog-content-length-range on direct uploads to Google Cloud Storage, so the bucket CORS configuration must allow that header.
+    requires_intervention: false

@@ -1,0 +1,13 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-2p2f-4rq4-gjwc
+short_description: Possible XSS vulnerability in Action View text helpers
+unaffected_versions:
+  - '< 7'
+affected_versions:
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: The upstream fix needs Nokogiri >= 1.19.5 (Ruby 3.2+). Update Nokogiri where possible; on older Nokogiri, highlight and simple_format fall back to the HTML4 sanitizer.
+    requires_intervention: false

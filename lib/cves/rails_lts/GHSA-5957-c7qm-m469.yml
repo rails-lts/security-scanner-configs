@@ -1,0 +1,15 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-5957-c7qm-m469
+short_description: Possible signature replay in Action Mailbox Mailgun ingress
+unaffected_versions:
+  - '< 6'
+affected_versions:
+  - '>= 6, < 6.1.7.42'
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '~> 6.1.7.42'
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: ~
+    requires_intervention: false

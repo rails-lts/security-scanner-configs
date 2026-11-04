@@ -1,0 +1,13 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-3w93-6hmw-whh4
+short_description: Unsigned Content-Type in Active Storage GCS direct uploads with cache_control
+unaffected_versions:
+  - '< 7'
+affected_versions:
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: ~
+    requires_intervention: false
