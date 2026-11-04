@@ -1,0 +1,15 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-5v64-555j-wjxm
+short_description: Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
+unaffected_versions:
+  - '< 2'
+affected_versions:
+  - '>= 2.0, < 2.2.25.10'
+  - '>= 3.0, < 3.1.23'
+  - '>= 3.2, < 3.2.8'
+patched:
+  - versions:
+    - '>= 2.2.25.10, < 2.3'
+    patch_note: ~
+    requires_intervention: false
