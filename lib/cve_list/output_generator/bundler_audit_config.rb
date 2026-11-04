@@ -11,12 +11,12 @@ module CveList
 
           ignores << if patch.patch_note?
             if patch.requires_intervention?
-              "# - #{patch.cve_identifier} # (PLEASE CHECK: #{patch.patch_note})\n"
+              "# - #{patch.identifier} # (PLEASE CHECK: #{patch.patch_note})\n"
             else
-              "- #{patch.cve_identifier} # (NOTE: #{patch.patch_note})\n"
+              "- #{patch.identifier} # (NOTE: #{patch.patch_note})\n"
             end
           else
-            "- #{patch.cve_identifier}\n"
+            "- #{patch.identifier}\n"
           end
         end
 

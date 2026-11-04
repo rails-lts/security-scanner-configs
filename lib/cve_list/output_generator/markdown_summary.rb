@@ -10,14 +10,14 @@ module CveList
         patch_list.each do |patch|
           items << if patch.patch_note?
             <<~MARKDOWN
-              - #{patch.cve_identifier}
+              - #{patch.identifier}
                 - #{patch.short_description}
                 - NOTE: #{patch.patch_note}
 
             MARKDOWN
           elsif patch.unaffected?
             <<~MARKDOWN
-              - #{patch.cve_identifier}
+              - #{patch.identifier}
                 - #{patch.short_description}
                 - NOTE: #{rails_or_rack} LTS was not affected by this CVE.
 
@@ -30,7 +30,7 @@ module CveList
             MARKDOWN
           else
             <<~MARKDOWN
-              - #{patch.cve_identifier}
+              - #{patch.identifier}
                 - #{patch.short_description}
 
             MARKDOWN
