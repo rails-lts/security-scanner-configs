@@ -82,3 +82,7 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.24 LT
 - CVE-2026-22860
   - Directory traversal in Rack::Directory
   - NOTE: Rack LTS was not affected by this CVE.
+
+- GHSA-5v64-555j-wjxm
+  - Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
+  - NOTE: Rack LTS was not affected by this CVE.

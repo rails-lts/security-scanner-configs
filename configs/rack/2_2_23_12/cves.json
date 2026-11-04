@@ -1,0 +1,282 @@
+[
+  {
+    "cve_identifier": "CVE-2022-44570",
+    "ghsa_identifier": "GHSA-65f5-mfpf-vfhj",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237240",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44571",
+    "ghsa_identifier": "GHSA-93pm-5p5f-3ghx",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237233",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2022-44572",
+    "ghsa_identifier": "GHSA-rqv2-275x-2jq5",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3237237",
+    "short_description": "ReDos in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2023-27530",
+    "ghsa_identifier": "GHSA-3h57-hmj3-gj3p",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3356639",
+    "short_description": "Backported fix for Rack to address a potential DoS attack with rack multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2023-27539",
+    "ghsa_identifier": "GHSA-c6qg-cjj8-47qp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-3360233",
+    "short_description": "Backported fix for DoS vulnerability in Rack, see https://mailchi.mp/railslts/rails-lts-multiple-vulnerabilities-in-rails-and-rack for more details",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-25126",
+    "ghsa_identifier": "CVE-2024-25126",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274384",
+    "short_description": "ReDoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-26141",
+    "ghsa_identifier": "GHSA-xj5v-6v4g-jfw6",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274385",
+    "short_description": "DoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2024-26146",
+    "ghsa_identifier": "GHSA-54rr-7fvw-6x8f",
+    "snyk_identifiers": "SNYK-RUBY-RACK-6274383",
+    "short_description": "ReDoS vulnerability in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-25184",
+    "ghsa_identifier": "GHSA-7g2v-jj9q-g3rg",
+    "snyk_identifiers": "SNYK-RUBY-RACK-8720151",
+    "short_description": "Possible log injection in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-59830",
+    "ghsa_identifier": "GHSA-625h-95r8-8xpm",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13052974",
+    "short_description": "Params Limit Bypass in Rack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61770",
+    "ghsa_identifier": "GHSA-p543-xpfm-54cp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13378932",
+    "short_description": "Rack's unbounded multipart preamble buffering enables DoS (memory exhaustion)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61771",
+    "ghsa_identifier": "GHSA-w9pc-fmgc-vxvw",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13378930",
+    "short_description": "Rack's multipart parser buffers large non‑file fields entirely in memory, enabling DoS (memory exhaustion)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61772",
+    "ghsa_identifier": "GHSA-wpv5-97wm-hp9c",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13378928",
+    "short_description": "Rack's multipart parser buffers unbounded per-part headers, enabling DoS (memory exhaustion)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61780",
+    "ghsa_identifier": "GHSA-r657-rxjc-j557",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13524628",
+    "short_description": "Rack has a Possible Information Disclosure Vulnerability",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2025-61919",
+    "ghsa_identifier": "GHSA-6xw4-3v39-52mm",
+    "snyk_identifiers": "SNYK-RUBY-RACK-13535097",
+    "short_description": "Unbounded read in Rack::Request form parsing can lead to memory exhaustion",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-22860",
+    "ghsa_identifier": "GHSA-mxw3-3hh2-x2mh",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15307669",
+    "short_description": "Directory traversal in Rack::Directory",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-25500",
+    "ghsa_identifier": "GHSA-whrj-4476-wvmp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15307670",
+    "short_description": "XSS in Rack::Directory",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-26961",
+    "ghsa_identifier": "GHSA-vgpv-f759-9wx3",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878035",
+    "short_description": "Non-RFC-conformant handling of Multipart request boundaries",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-26962",
+    "ghsa_identifier": "GHSA-rx22-g9mx-qrhv",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878236",
+    "short_description": "Possible mishandling of filenames in multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34230",
+    "ghsa_identifier": "GHSA-v569-hp3g-36wr",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878255",
+    "short_description": "Denial of Service in Rack when using Rack::Deflater middleware",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34763",
+    "ghsa_identifier": "GHSA-7mqq-6cf9-v2qp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878258",
+    "short_description": "Possible leak of root directory name in Rack::Directory",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34785",
+    "ghsa_identifier": "GHSA-h2jq-g4cq-5ppq",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878254",
+    "short_description": "Possible directory traversal in Rack::Static",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34786",
+    "ghsa_identifier": "GHSA-q4qf-9j86-f5mh",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878259",
+    "short_description": "Possible Incorrect setting of HTTP headers in Rack::Static",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34826",
+    "ghsa_identifier": "GHSA-x8cg-fq8g-mxfx",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878257",
+    "short_description": "Possible Denial of Service in Rack handling of Range headers",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34829",
+    "ghsa_identifier": "GHSA-8vqr-qjwx-82mw",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878260",
+    "short_description": "Possible Denial of Service for multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34830",
+    "ghsa_identifier": "GHSA-qv7j-4883-hwh7",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878256",
+    "short_description": "Incorrect handling of X-Accel-Mapping in Rack::SendFile",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34831",
+    "ghsa_identifier": "GHSA-q2ww-5357-x388",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878237",
+    "short_description": "Possible Invalid Content-Length header in Rack::Files",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34835",
+    "ghsa_identifier": "GHSA-g2pf-xv49-m2h5",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878234",
+    "short_description": "Missing validation of RFC-conformity of Host Header",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  }
+]

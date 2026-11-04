@@ -85,3 +85,7 @@ This is a known list of all known vulnerabilities relevant for Rack 1.4.7.28 LTS
 
 - CVE-2026-25500
   - XSS in Rack::Directory
+
+- GHSA-5v64-555j-wjxm
+  - Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
+  - NOTE: Rack LTS was not affected by this CVE.

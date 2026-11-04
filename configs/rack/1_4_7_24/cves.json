@@ -208,5 +208,15 @@
     "requires_intervention": false,
     "unaffected": true,
     "gem": "rack"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-5v64-555j-wjxm",
+    "snyk_identifiers": "",
+    "short_description": "Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
   }
 ]

@@ -266,3 +266,43 @@ This is a known list of all known vulnerabilities relevant for Rails 5.2.8.30 LT
 - CVE-2026-66066
   - Arbitrary file read and remote code execution in ActiveStorage
   - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2gff-2mmg-m73p
+  - Possible IP spoofing in Action Dispatch RemoteIp (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2p2f-4rq4-gjwc
+  - Possible XSS vulnerability in Action View text helpers
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2w9f-fxwj-w2qf
+  - Possible XSS vulnerability in Active Support MessagePack serializer (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-3w93-6hmw-whh4
+  - Unsigned Content-Type in Active Storage GCS direct uploads with cache_control
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-4v2w-w6g6-f8f8
+  - Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-5957-c7qm-m469
+  - Possible signature replay in Action Mailbox Mailgun ingress
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-68p9-83h6-5wpj
+  - Possible XSS vulnerability in Action View tag helpers
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-gmj8-hvj3-49mw
+  - Missing SameSite attribute on session cookies from Action Pack session stores
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-rq8q-p985-fjq7
+  - Possible XSS vulnerability in Action View strip_tags
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-wm3x-v3qw-4jh3
+  - Possible Strong Parameters bypass in Parameters#each_key in Action Pack
+  - NOTE: Rails LTS was not affected by this CVE.

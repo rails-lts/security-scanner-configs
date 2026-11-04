@@ -133,3 +133,15 @@ This is a known list of all known vulnerabilities relevant for Rails 7.2.3.10 LT
 - CVE-2026-33174
   - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
   - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2gff-2mmg-m73p
+  - Possible IP spoofing in Action Dispatch RemoteIp (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2w9f-fxwj-w2qf
+  - Possible XSS vulnerability in Active Support MessagePack serializer (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-4v2w-w6g6-f8f8
+  - Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming
+  - NOTE: Rails LTS was not affected by this CVE.
