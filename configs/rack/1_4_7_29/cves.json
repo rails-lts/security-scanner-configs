@@ -268,5 +268,115 @@
     "requires_intervention": false,
     "unaffected": false,
     "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-26961",
+    "ghsa_identifier": "GHSA-vgpv-f759-9wx3",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878035",
+    "short_description": "Non-RFC-conformant handling of Multipart request boundaries",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-26962",
+    "ghsa_identifier": "GHSA-rx22-g9mx-qrhv",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878236",
+    "short_description": "Possible mishandling of filenames in multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34230",
+    "ghsa_identifier": "GHSA-v569-hp3g-36wr",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878255",
+    "short_description": "Denial of Service in Rack when using Rack::Deflater middleware",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34763",
+    "ghsa_identifier": "GHSA-7mqq-6cf9-v2qp",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878258",
+    "short_description": "Possible leak of root directory name in Rack::Directory",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34785",
+    "ghsa_identifier": "GHSA-h2jq-g4cq-5ppq",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878254",
+    "short_description": "Possible directory traversal in Rack::Static",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34786",
+    "ghsa_identifier": "GHSA-q4qf-9j86-f5mh",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878259",
+    "short_description": "Possible Incorrect setting of HTTP headers in Rack::Static",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34826",
+    "ghsa_identifier": "GHSA-x8cg-fq8g-mxfx",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878257",
+    "short_description": "Possible Denial of Service in Rack handling of Range headers",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34829",
+    "ghsa_identifier": "GHSA-8vqr-qjwx-82mw",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878260",
+    "short_description": "Possible Denial of Service for multipart requests",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34830",
+    "ghsa_identifier": "GHSA-qv7j-4883-hwh7",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878256",
+    "short_description": "Incorrect handling of X-Accel-Mapping in Rack::SendFile",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": "CVE-2026-34831",
+    "ghsa_identifier": "GHSA-q2ww-5357-x388",
+    "snyk_identifiers": "SNYK-RUBY-RACK-15878237",
+    "short_description": "Possible Invalid Content-Length header in Rack::Files",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": false,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-5v64-555j-wjxm",
+    "snyk_identifiers": "",
+    "short_description": "Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
   }
 ]

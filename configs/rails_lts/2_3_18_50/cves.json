@@ -1108,5 +1108,195 @@
     "requires_intervention": false,
     "unaffected": true,
     "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-2gff-2mmg-m73p",
+    "snyk_identifiers": "",
+    "short_description": "Possible IP spoofing in Action Dispatch RemoteIp (Rails 8.1 only)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-2p2f-4rq4-gjwc",
+    "snyk_identifiers": "",
+    "short_description": "Possible XSS vulnerability in Action View text helpers",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-2w9f-fxwj-w2qf",
+    "snyk_identifiers": "",
+    "short_description": "Possible XSS vulnerability in Active Support MessagePack serializer (Rails 8.1 only)",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-3f4q-8x5m-76v8",
+    "snyk_identifiers": "",
+    "short_description": "Possible local file disclosure in Active Storage video previews and analysis",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-3w93-6hmw-whh4",
+    "snyk_identifiers": "",
+    "short_description": "Unsigned Content-Type in Active Storage GCS direct uploads with cache_control",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-4v2w-w6g6-f8f8",
+    "snyk_identifiers": "",
+    "short_description": "Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-5957-c7qm-m469",
+    "snyk_identifiers": "",
+    "short_description": "Possible signature replay in Action Mailbox Mailgun ingress",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-68p9-83h6-5wpj",
+    "snyk_identifiers": "",
+    "short_description": "Possible XSS vulnerability in Action View tag helpers",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-8474-xrp6-wh69",
+    "snyk_identifiers": "",
+    "short_description": "Possible DoS vulnerability in Active Support safe_constantize",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-f3w6-w445-fwh9",
+    "snyk_identifiers": "",
+    "short_description": "Possible arbitrary file write and read in Active Storage image analysis",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-gmj8-hvj3-49mw",
+    "snyk_identifiers": "",
+    "short_description": "Missing SameSite attribute on session cookies from Action Pack session stores",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-hfr4-8rjc-97m2",
+    "snyk_identifiers": "",
+    "short_description": "Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-p2pm-g2h6-7j5j",
+    "snyk_identifiers": "",
+    "short_description": "Possible DoS vulnerability in Active Storage filename handling",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-rq8q-p985-fjq7",
+    "snyk_identifiers": "",
+    "short_description": "Possible XSS vulnerability in Action View strip_tags",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-rwvh-fw6r-pwvp",
+    "snyk_identifiers": "",
+    "short_description": "Possible DoS vulnerability in Action Controller Live streaming",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-v6rj-xm57-3p59",
+    "snyk_identifiers": "",
+    "short_description": "Possible XSS vulnerability in Action View highlight helper",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-v924-7rp8-4mxh",
+    "snyk_identifiers": "",
+    "short_description": "Possible arbitrary file read and remote code execution in Active Storage video previews, analysis and image processing",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-wm3x-v3qw-4jh3",
+    "snyk_identifiers": "",
+    "short_description": "Possible Strong Parameters bypass in Parameters#each_key in Action Pack",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-x6mj-8jx9-qhqv",
+    "snyk_identifiers": "",
+    "short_description": "Possible sensitive session information leak in Active Storage proxy mode",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rails"
   }
 ]

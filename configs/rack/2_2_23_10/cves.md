@@ -53,3 +53,33 @@ This is a known list of all known vulnerabilities relevant for Rack 2.2.23.10 LT
 
 - CVE-2026-25500
   - XSS in Rack::Directory
+
+- CVE-2026-26961
+  - Non-RFC-conformant handling of Multipart request boundaries
+
+- CVE-2026-26962
+  - Possible mishandling of filenames in multipart requests
+
+- CVE-2026-34230
+  - Denial of Service in Rack when using Rack::Deflater middleware
+
+- CVE-2026-34763
+  - Possible leak of root directory name in Rack::Directory
+
+- CVE-2026-34785
+  - Possible directory traversal in Rack::Static
+
+- CVE-2026-34786
+  - Possible Incorrect setting of HTTP headers in Rack::Static
+
+- CVE-2026-34826
+  - Possible Denial of Service in Rack handling of Range headers
+
+- CVE-2026-34829
+  - Possible Denial of Service for multipart requests
+
+- CVE-2026-34830
+  - Incorrect handling of X-Accel-Mapping in Rack::SendFile
+
+- CVE-2026-34831
+  - Possible Invalid Content-Length header in Rack::Files
