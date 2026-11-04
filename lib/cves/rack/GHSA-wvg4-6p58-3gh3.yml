@@ -1,0 +1,24 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-wvg4-6p58-3gh3
+short_description: Rack::Static header_rules bypass via unnormalized dot segments in the request path
+unaffected_versions: []
+affected_versions:
+  - '< 1.4.7.32'
+  - '>= 1.5, < 1.6.13.30'
+  - '>= 2.0, < 2.2.25.10'
+  - '>= 3.0, < 3.1.23'
+  - '>= 3.2, < 3.2.8'
+patched:
+  - versions:
+    - '~> 1.4.7.32'
+    patch_note: ~
+    requires_intervention: false
+  - versions:
+    - '~> 1.6.13.30'
+    patch_note: ~
+    requires_intervention: false
+  - versions:
+    - '>= 2.2.25.10, < 2.3'
+    patch_note: ~
+    requires_intervention: false
