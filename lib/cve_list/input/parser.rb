@@ -26,7 +26,7 @@ module CveList
             end
           end
 
-          patches.sort_by { |patch| patch.cve_identifier || patch.snyk_identifiers[0] }
+          patches.sort_by(&:identifier)
         end
 
         private
@@ -67,6 +67,11 @@ module CveList
         end
       end
 
+      # Scanners such as bundler-audit know an advisory by its CVE or, before one is assigned, by its GHSA
+      def identifier
+        @cve_identifier || @ghsa_identifier || @snyk_identifiers[0]
+      end
+
       def patch_note?
         !@patch_note.nil?
       end
@@ -80,7 +85,7 @@ module CveList
       end
 
       def snyk_only?
-        @cve_identifier.nil?
+        @cve_identifier.nil? && @ghsa_identifier.nil?
       end
     end
   end

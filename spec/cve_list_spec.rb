@@ -8,8 +8,9 @@ RSpec.describe CveList do
       cve = YAML.load_file(cve_path)
 
       expect(cve).to have_key('cve_identifier')
-      # there's a single snyk id that doesn't have an official cve id
-      expect(cve['cve_identifier']).to eq(File.basename(cve_path, '.yml')).or(be_nil)
+      # a file is named after its CVE, or after its GHSA while no CVE is assigned;
+      # a single snyk id has neither
+      expect(cve['cve_identifier'] || cve['ghsa_identifier']).to eq(File.basename(cve_path, '.yml')).or(be_nil)
 
       expect(cve).to have_key('snyk_identifiers')
       expect(cve['snyk_identifiers']).to be_a(Array)

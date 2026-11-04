@@ -27,6 +27,14 @@ RSpec.describe CveList::OutputGenerator::BundlerAuditConfig do
         patch_note: 'Please write safe code',
         requires_intervention: true,
       ),
+      CveList::Input::Parser.new(
+        cve_identifier: nil,
+        snyk_identifiers: [],
+        short_description: 'Advisory without CVE',
+        ghsa_identifier: 'GHSA-2586-8ghr-69fj',
+        patch_note: nil,
+        requires_intervention: false,
+      ),
     ]
   end
 
@@ -38,6 +46,7 @@ RSpec.describe CveList::OutputGenerator::BundlerAuditConfig do
           - CVE-2012-1099
           - CVE-2012-1100 # (NOTE: Fixed in Rails 5.2 LTS's version of Rack)
           # - CVE-2012-1101 # (PLEASE CHECK: Please write safe code)
+          - GHSA-2586-8ghr-69fj
       YAML
     end
   end
