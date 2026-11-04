@@ -105,4 +105,44 @@ ignore:
     - '*':
         reason: Fixed in Rack LTS
         expires: false
+  SNYK-RUBY-RACK-15878035:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878236:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878255:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878258:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878254:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878259:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878257:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878260:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878256:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
+  SNYK-RUBY-RACK-15878237:
+    - '*':
+        reason: Fixed in Rack LTS
+        expires: false
 patch: {}

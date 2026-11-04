@@ -1,0 +1,19 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-rwvh-fw6r-pwvp
+short_description: Possible DoS vulnerability in Action Controller Live streaming
+unaffected_versions:
+  - '< 4'
+affected_versions:
+  - '>= 4, < 4.2.11.45'
+  - '>= 5, < 5.2.8.46'
+  - '>= 6, < 6.1.7.42'
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '~> 4.2.11.45'
+    - '~> 5.2.8.46'
+    - '~> 6.1.7.42'
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: ~
+    requires_intervention: false

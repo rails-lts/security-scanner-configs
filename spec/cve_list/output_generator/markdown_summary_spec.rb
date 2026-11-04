@@ -28,6 +28,14 @@ RSpec.describe CveList::OutputGenerator::MarkdownSummary do
         patch_note: 'Please write safe code',
         requires_intervention: true,
       ),
+      CveList::Input::Parser.new(
+        cve_identifier: nil,
+        snyk_identifiers: [],
+        short_description: 'Advisory without CVE',
+        ghsa_identifier: 'GHSA-2586-8ghr-69fj',
+        patch_note: nil,
+        requires_intervention: false,
+      ),
     ]
   end
 
@@ -49,6 +57,9 @@ RSpec.describe CveList::OutputGenerator::MarkdownSummary do
         - CVE-2012-1101
           - Unfixable thing
           - NOTE: Please write safe code
+
+        - GHSA-2586-8ghr-69fj
+          - Advisory without CVE
       MARKDOWN
     end
   end

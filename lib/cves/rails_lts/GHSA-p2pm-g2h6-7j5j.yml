@@ -1,0 +1,17 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-p2pm-g2h6-7j5j
+short_description: Possible DoS vulnerability in Active Storage filename handling
+unaffected_versions:
+  - '< 5'
+affected_versions:
+  - '>= 5, < 5.2.8.46'
+  - '>= 6, < 6.1.7.42'
+  - '>= 7, < 7.2.4.11'
+patched:
+  - versions:
+    - '~> 5.2.8.46'
+    - '~> 6.1.7.42'
+    - '>= 7.2.4.11, < 7.3'
+    patch_note: ~
+    requires_intervention: false

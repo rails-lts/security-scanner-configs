@@ -1,0 +1,8 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-2w9f-fxwj-w2qf
+short_description: Possible XSS vulnerability in Active Support MessagePack serializer (Rails 8.1 only)
+unaffected_versions:
+  - '>= 0'
+affected_versions: []
+patched: []

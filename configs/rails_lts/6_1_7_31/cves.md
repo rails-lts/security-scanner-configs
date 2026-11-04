@@ -283,6 +283,30 @@ This is a known list of all known vulnerabilities relevant for Rails 6.1.7.31 LT
   - Rails Active Storage has a possible DoS vulnerability when in proxy mode via Range requests
   - NOTE: Rails LTS was not affected by this CVE.
 
+- GHSA-2gff-2mmg-m73p
+  - Possible IP spoofing in Action Dispatch RemoteIp (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2p2f-4rq4-gjwc
+  - Possible XSS vulnerability in Action View text helpers
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2w9f-fxwj-w2qf
+  - Possible XSS vulnerability in Active Support MessagePack serializer (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-3w93-6hmw-whh4
+  - Unsigned Content-Type in Active Storage GCS direct uploads with cache_control
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-4v2w-w6g6-f8f8
+  - Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-rq8q-p985-fjq7
+  - Possible XSS vulnerability in Action View strip_tags
+  - NOTE: Rails LTS was not affected by this CVE.
+
 - SNYK-RUBY-ACTIONCABLE-20338
   - ActionCable does not filter sensitive data in logs in early versions of ActionCable.
   - NOTE: Snyk only, no public CVE available.

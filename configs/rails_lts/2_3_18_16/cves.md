@@ -354,3 +354,79 @@ This is a known list of all known vulnerabilities relevant for Rails 2.3.18.16 L
 - CVE-2026-66066
   - Arbitrary file read and remote code execution in ActiveStorage
   - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2gff-2mmg-m73p
+  - Possible IP spoofing in Action Dispatch RemoteIp (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2p2f-4rq4-gjwc
+  - Possible XSS vulnerability in Action View text helpers
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-2w9f-fxwj-w2qf
+  - Possible XSS vulnerability in Active Support MessagePack serializer (Rails 8.1 only)
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-3f4q-8x5m-76v8
+  - Possible local file disclosure in Active Storage video previews and analysis
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-3w93-6hmw-whh4
+  - Unsigned Content-Type in Active Storage GCS direct uploads with cache_control
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-4v2w-w6g6-f8f8
+  - Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-5957-c7qm-m469
+  - Possible signature replay in Action Mailbox Mailgun ingress
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-68p9-83h6-5wpj
+  - Possible XSS vulnerability in Action View tag helpers
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-8474-xrp6-wh69
+  - Possible DoS vulnerability in Active Support safe_constantize
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-f3w6-w445-fwh9
+  - Possible arbitrary file write and read in Active Storage image analysis
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-gmj8-hvj3-49mw
+  - Missing SameSite attribute on session cookies from Action Pack session stores
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-hfr4-8rjc-97m2
+  - Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-p2pm-g2h6-7j5j
+  - Possible DoS vulnerability in Active Storage filename handling
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-rq8q-p985-fjq7
+  - Possible XSS vulnerability in Action View strip_tags
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-rwvh-fw6r-pwvp
+  - Possible DoS vulnerability in Action Controller Live streaming
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-v6rj-xm57-3p59
+  - Possible XSS vulnerability in Action View highlight helper
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-v924-7rp8-4mxh
+  - Possible arbitrary file read and remote code execution in Active Storage video previews, analysis and image processing
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-wm3x-v3qw-4jh3
+  - Possible Strong Parameters bypass in Parameters#each_key in Action Pack
+  - NOTE: Rails LTS was not affected by this CVE.
+
+- GHSA-x6mj-8jx9-qhqv
+  - Possible sensitive session information leak in Active Storage proxy mode
+  - NOTE: Rails LTS was not affected by this CVE.
