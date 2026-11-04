@@ -1,0 +1,8 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-4v2w-w6g6-f8f8
+short_description: Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming
+unaffected_versions:
+  - '>= 0'
+affected_versions: []
+patched: []
