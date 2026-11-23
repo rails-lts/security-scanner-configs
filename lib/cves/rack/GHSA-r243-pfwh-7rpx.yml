@@ -1,0 +1,18 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-r243-pfwh-7rpx
+short_description: Possible parser differential via the multipart boundary in Rack::Multipart
+unaffected_versions: []
+affected_versions:
+  - '< 1.4.7.34'
+  - '>= 1.5, < 1.6.13.32'
+  - '>= 2.0, < 2.2.26.10'
+  - '>= 3.0, < 3.1.24'
+  - '>= 3.2, < 3.2.9'
+patched:
+  - versions:
+    - '~> 1.4.7.34'
+    - '~> 1.6.13.32'
+    - '>= 2.2.26.10, < 2.3'
+    patch_note: ~
+    requires_intervention: false
