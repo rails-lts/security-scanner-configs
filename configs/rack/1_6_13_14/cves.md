@@ -30,9 +30,6 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.14 LT
 - CVE-2023-27539
   - Backported fix for DoS vulnerability in Rack, see https://mailchi.mp/railslts/rails-lts-multiple-vulnerabilities-in-rails-and-rack for more details
 
-- CVE-2024-26146
-  - ReDoS vulnerability in Rack
-
 - CVE-2025-59830
   - Params Limit Bypass in Rack
   - NOTE: Rack LTS was not affected by this CVE.
@@ -43,4 +40,8 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.14 LT
 
 - GHSA-5v64-555j-wjxm
   - Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
+  - NOTE: Rack LTS was not affected by this CVE.
+
+- GHSA-mhj6-xc86-54m8
+  - Possible directory listing outside the root in Rack::Directory via symbolic links
   - NOTE: Rack LTS was not affected by this CVE.

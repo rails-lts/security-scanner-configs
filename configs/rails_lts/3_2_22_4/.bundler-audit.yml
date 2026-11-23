@@ -10,11 +10,10 @@ ignore:
   - CVE-2013-0156
   - CVE-2013-0276
   - CVE-2013-0277
-  - CVE-2013-1854
+  # - CVE-2013-1854 # (PLEASE CHECK: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.)
   - CVE-2013-1855
   - CVE-2013-1857
   - CVE-2014-0080
-  - CVE-2014-0081
   - CVE-2014-0130
   - CVE-2014-3482
   - CVE-2014-7818
@@ -25,7 +24,7 @@ ignore:
   - CVE-2015-7579
   - CVE-2015-7580
   - CVE-2015-7581
-  - CVE-2016-0751
+  # - CVE-2016-0751 # (PLEASE CHECK: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.)
   - CVE-2016-0752
   - CVE-2016-0753
   - CVE-2018-16476

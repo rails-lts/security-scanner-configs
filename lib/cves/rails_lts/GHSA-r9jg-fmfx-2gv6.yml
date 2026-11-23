@@ -4,6 +4,10 @@ ghsa_identifier: GHSA-r9jg-fmfx-2gv6
 short_description: Possible cache poisoning in Action Pack content negotiation
 unaffected_versions: []
 affected_versions:
+  - '< 2.3.18.66'
+  - '>= 3, < 3.2.22.58'
+  - '>= 4, < 4.2.11.46'
+  - '>= 5, < 5.2.8.48'
   - '>= 6, < 6.1.7.42'
   - '>= 7, < 7.2.4.11'
 patched:
@@ -12,3 +16,10 @@ patched:
     - '>= 7.2.4.11, < 7.3'
     patch_note: ~
     requires_intervention: false
+  - versions:
+    - '~> 2.3.18.66'
+    - '~> 3.2.22.58'
+    - '~> 4.2.11.46'
+    - '~> 5.2.8.48'
+    patch_note: Only fixed with config.rails_lts_options = { :default => :hardened } or the vary_negotiated_responses option.
+    requires_intervention: true

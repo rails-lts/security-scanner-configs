@@ -64,8 +64,8 @@
     "ghsa_identifier": "GHSA-93pm-5p5f-3ghx",
     "snyk_identifiers": "SNYK-RUBY-RACK-3237233",
     "short_description": "ReDos in Rack",
-    "patch_note": null,
-    "requires_intervention": false,
+    "patch_note": "This version fixes it only on Ruby 3.2 and later (fully fixed in Rack 1.4.7.35, 1.6.13.33 and 2.2.26.11). If you run Ruby 3.2 or later, you can uncomment this line.",
+    "requires_intervention": true,
     "unaffected": false,
     "gem": "rack"
   },
@@ -200,16 +200,6 @@
     "gem": "rack"
   },
   {
-    "cve_identifier": "CVE-2025-61770",
-    "ghsa_identifier": "GHSA-p543-xpfm-54cp",
-    "snyk_identifiers": "SNYK-RUBY-RACK-13378932",
-    "short_description": "Rack's unbounded multipart preamble buffering enables DoS (memory exhaustion)",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": false,
-    "gem": "rack"
-  },
-  {
     "cve_identifier": "CVE-2025-61771",
     "ghsa_identifier": "GHSA-w9pc-fmgc-vxvw",
     "snyk_identifiers": "SNYK-RUBY-RACK-13378930",
@@ -224,16 +214,6 @@
     "ghsa_identifier": "GHSA-wpv5-97wm-hp9c",
     "snyk_identifiers": "SNYK-RUBY-RACK-13378928",
     "short_description": "Rack's multipart parser buffers unbounded per-part headers, enabling DoS (memory exhaustion)",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": false,
-    "gem": "rack"
-  },
-  {
-    "cve_identifier": "CVE-2025-61780",
-    "ghsa_identifier": "GHSA-r657-rxjc-j557",
-    "snyk_identifiers": "SNYK-RUBY-RACK-13524628",
-    "short_description": "Rack has a Possible Information Disclosure Vulnerability",
     "patch_note": null,
     "requires_intervention": false,
     "unaffected": false,
@@ -274,6 +254,16 @@
     "ghsa_identifier": "GHSA-5v64-555j-wjxm",
     "snyk_identifiers": "",
     "short_description": "Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-mhj6-xc86-54m8",
+    "snyk_identifiers": "",
+    "short_description": "Possible directory listing outside the root in Rack::Directory via symbolic links",
     "patch_note": null,
     "requires_intervention": false,
     "unaffected": true,

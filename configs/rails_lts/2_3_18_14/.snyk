@@ -129,10 +129,6 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
-  SNYK-RUBY-ACTIONPACK-20198:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
   SNYK-RUBY-ACTIONPACK-20200:
     - '*':
         reason: Does not affect Rails LTS
@@ -174,10 +170,6 @@ ignore:
         reason: Does not affect Rails LTS
         expires: false
   SNYK-RUBY-ACTIONPACK-20255:
-    - '*':
-        reason: Does not affect Rails LTS
-        expires: false
-  SNYK-RUBY-ACTIONVIEW-20262:
     - '*':
         reason: Does not affect Rails LTS
         expires: false

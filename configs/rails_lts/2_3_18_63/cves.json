@@ -330,16 +330,6 @@
     "gem": "rails"
   },
   {
-    "cve_identifier": "CVE-2014-7818",
-    "ghsa_identifier": "GHSA-29gr-w57f-rpfw",
-    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20198",
-    "short_description": "Directory traversal in ActionPack",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": false,
-    "gem": "rails"
-  },
-  {
     "cve_identifier": "CVE-2014-7829",
     "ghsa_identifier": "GHSA-h56m-vwxc-3qpw",
     "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20200",
@@ -454,19 +444,9 @@
     "ghsa_identifier": "GHSA-ffpv-c4hm-3x6v",
     "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20256",
     "short_description": "DoS in ActionPack",
-    "patch_note": null,
-    "requires_intervention": false,
+    "patch_note": "This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.",
+    "requires_intervention": true,
     "unaffected": false,
-    "gem": "rails"
-  },
-  {
-    "cve_identifier": "CVE-2016-0752",
-    "ghsa_identifier": "GHSA-xrr4-p6fq-hjg7",
-    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-20262",
-    "short_description": "Directory traversal in ActionView",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": true,
     "gem": "rails"
   },
   {
@@ -494,16 +474,6 @@
     "ghsa_identifier": "GHSA-78rc-8c29-p45g",
     "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20264",
     "short_description": "Arbitrary code execution in ActionPack",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": false,
-    "gem": "rails"
-  },
-  {
-    "cve_identifier": "CVE-2016-6316",
-    "ghsa_identifier": "GHSA-pc3m-v286-2jwj",
-    "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-20271",
-    "short_description": "XSS in ActionView",
     "patch_note": null,
     "requires_intervention": false,
     "unaffected": false,
@@ -1314,16 +1284,6 @@
     "ghsa_identifier": "GHSA-rwvh-fw6r-pwvp",
     "snyk_identifiers": "",
     "short_description": "Possible DoS vulnerability in Action Controller Live streaming",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": true,
-    "gem": "rails"
-  },
-  {
-    "cve_identifier": null,
-    "ghsa_identifier": "GHSA-v6rj-xm57-3p59",
-    "snyk_identifiers": "",
-    "short_description": "Possible XSS vulnerability in Action View highlight helper",
     "patch_note": null,
     "requires_intervention": false,
     "unaffected": true,

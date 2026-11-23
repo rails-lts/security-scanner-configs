@@ -7,6 +7,7 @@ This is a known list of all known vulnerabilities relevant for Rack 2.2.23.11 LT
 
 - CVE-2022-44571
   - ReDos in Rack
+  - NOTE: This version fixes it only on Ruby 3.2 and later (fully fixed in Rack 1.4.7.35, 1.6.13.33 and 2.2.26.11). If you run Ruby 3.2 or later, you can uncomment this line.
 
 - CVE-2022-44572
   - ReDos in Rack
@@ -41,9 +42,6 @@ This is a known list of all known vulnerabilities relevant for Rack 2.2.23.11 LT
 
 - CVE-2025-61772
   - Rack's multipart parser buffers unbounded per-part headers, enabling DoS (memory exhaustion)
-
-- CVE-2025-61780
-  - Rack has a Possible Information Disclosure Vulnerability
 
 - CVE-2025-61919
   - Unbounded read in Rack::Request form parsing can lead to memory exhaustion

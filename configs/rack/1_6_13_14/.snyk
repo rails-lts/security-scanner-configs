@@ -37,10 +37,6 @@ ignore:
     - '*':
         reason: Fixed in Rack LTS
         expires: false
-  SNYK-RUBY-RACK-6274383:
-    - '*':
-        reason: Fixed in Rack LTS
-        expires: false
   SNYK-RUBY-RACK-13052974:
     - '*':
         reason: Does not affect Rack LTS

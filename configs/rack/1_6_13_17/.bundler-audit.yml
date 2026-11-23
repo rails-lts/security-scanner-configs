@@ -6,13 +6,13 @@ ignore:
   - CVE-2022-30122
   - CVE-2022-30123
   - CVE-2022-44570
-  - CVE-2022-44571
+  # - CVE-2022-44571 # (PLEASE CHECK: This version fixes it only on Ruby 3.2 and later (fully fixed in Rack 1.4.7.35, 1.6.13.33 and 2.2.26.11). If you run Ruby 3.2 or later, you can uncomment this line.)
   - CVE-2022-44572
   - CVE-2023-27530
   - CVE-2023-27539
   - CVE-2024-25126
   - CVE-2024-26141
-  - CVE-2024-26146
   - CVE-2025-59830
   - CVE-2026-22860
   - GHSA-5v64-555j-wjxm
+  - GHSA-mhj6-xc86-54m8

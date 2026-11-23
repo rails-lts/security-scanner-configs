@@ -22,6 +22,7 @@ This is a known list of all known vulnerabilities relevant for Rack 1.4.7.28 LTS
 
 - CVE-2022-44571
   - ReDos in Rack
+  - NOTE: This version fixes it only on Ruby 3.2 and later (fully fixed in Rack 1.4.7.35, 1.6.13.33 and 2.2.26.11). If you run Ruby 3.2 or later, you can uncomment this line.
 
 - CVE-2022-44572
   - ReDos in Rack
@@ -64,17 +65,11 @@ This is a known list of all known vulnerabilities relevant for Rack 1.4.7.28 LTS
   - Params Limit Bypass in Rack
   - NOTE: Rack LTS was not affected by this CVE.
 
-- CVE-2025-61770
-  - Rack's unbounded multipart preamble buffering enables DoS (memory exhaustion)
-
 - CVE-2025-61771
   - Rack's multipart parser buffers large non‑file fields entirely in memory, enabling DoS (memory exhaustion)
 
 - CVE-2025-61772
   - Rack's multipart parser buffers unbounded per-part headers, enabling DoS (memory exhaustion)
-
-- CVE-2025-61780
-  - Rack has a Possible Information Disclosure Vulnerability
 
 - CVE-2025-61919
   - Unbounded read in Rack::Request form parsing can lead to memory exhaustion
@@ -88,4 +83,8 @@ This is a known list of all known vulnerabilities relevant for Rack 1.4.7.28 LTS
 
 - GHSA-5v64-555j-wjxm
   - Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
+  - NOTE: Rack LTS was not affected by this CVE.
+
+- GHSA-mhj6-xc86-54m8
+  - Possible directory listing outside the root in Rack::Directory via symbolic links
   - NOTE: Rack LTS was not affected by this CVE.

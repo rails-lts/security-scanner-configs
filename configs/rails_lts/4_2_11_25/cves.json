@@ -94,9 +94,9 @@
     "ghsa_identifier": "GHSA-3crr-9vmg-864v",
     "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20088",
     "short_description": "DoS in ActiveRecord",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": true,
+    "patch_note": "This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.",
+    "requires_intervention": true,
+    "unaffected": false,
     "gem": "rails"
   },
   {
@@ -184,9 +184,9 @@
     "ghsa_identifier": "GHSA-ffpv-c4hm-3x6v",
     "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20256",
     "short_description": "DoS in ActionPack",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": true,
+    "patch_note": "This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.",
+    "requires_intervention": true,
+    "unaffected": false,
     "gem": "rails"
   },
   {

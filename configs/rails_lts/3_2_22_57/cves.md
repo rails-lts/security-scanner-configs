@@ -44,7 +44,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
 
 - CVE-2013-1854
   - DoS in ActiveRecord
-  - NOTE: Rails LTS was not affected by this CVE.
+  - NOTE: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
 
 - CVE-2013-1855
   - XSS in ActionPack
@@ -60,10 +60,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
 
 - CVE-2014-0080
   - Data injection in postgres array columns
-  - NOTE: Rails LTS was not affected by this CVE.
-
-- CVE-2014-0081
-  - XSS in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
 
 - CVE-2014-0130
@@ -105,6 +101,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
 
 - CVE-2016-0751
   - DoS in ActionPack
+  - NOTE: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
 
 - CVE-2016-0752
   - Directory traversal in ActionView
@@ -114,12 +111,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
 
 - CVE-2016-2097
   - Information exposure in ActionView
-
-- CVE-2016-2098
-  - Arbitrary code execution in ActionPack
-
-- CVE-2016-6316
-  - XSS in ActionView
 
 - CVE-2018-16476
   - Access control vulnerability in ActiveJob
@@ -165,10 +156,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
 - CVE-2020-8164
   - Information exposure in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
-
-- CVE-2020-8165
-  - Unintended unmarshalling in MemCacheStore/RedisCacheStore
-  - NOTE: If you see "POTENTIAL UNSAFE USE OF `CACHE.READ`" in your rails log, potential code changes are required (see https://mailchi.mp/railslts/rails-lts-potential-remote-code-execution-of-user-provided-local-names-cve-2020-5042374)
 
 - CVE-2020-8166
   - CSRF in ActionPack
@@ -326,9 +313,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
   - Rails has a possible XSS vulnerability in its Action Pack debug exceptions
   - NOTE: Rails LTS was not affected by this CVE.
 
-- CVE-2026-33168
-  - Rails has a possible XSS vulnerability in its Action View tag helpers
-
 - CVE-2026-33169
   - Rails Active Support has a possible ReDoS vulnerability in number_to_delimited
 
@@ -423,6 +407,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.57 L
 
 - GHSA-v6rj-xm57-3p59
   - Possible XSS vulnerability in Action View highlight helper
+  - NOTE: This version fixes it only on Ruby 1.9 and later (fully fixed in Rails LTS 3.2.22.58). If you run Ruby 1.9 or later, you can uncomment this line.
 
 - GHSA-v924-7rp8-4mxh
   - Possible arbitrary file read and remote code execution in Active Storage video previews, analysis and image processing

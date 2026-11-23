@@ -104,9 +104,9 @@
     "ghsa_identifier": "GHSA-3crr-9vmg-864v",
     "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20088",
     "short_description": "DoS in ActiveRecord",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": true,
+    "patch_note": "This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.",
+    "requires_intervention": true,
+    "unaffected": false,
     "gem": "rails"
   },
   {
@@ -134,16 +134,6 @@
     "ghsa_identifier": "GHSA-hqf9-rc9j-5fmj",
     "snyk_identifiers": "SNYK-RUBY-ACTIVERECORD-20149",
     "short_description": "Data injection in postgres array columns",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": true,
-    "gem": "rails"
-  },
-  {
-    "cve_identifier": "CVE-2014-0081",
-    "ghsa_identifier": "GHSA-m46p-ggm5-5j83",
-    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20147",
-    "short_description": "XSS in ActionPack",
     "patch_note": null,
     "requires_intervention": false,
     "unaffected": true,
@@ -254,8 +244,8 @@
     "ghsa_identifier": "GHSA-ffpv-c4hm-3x6v",
     "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20256",
     "short_description": "DoS in ActionPack",
-    "patch_note": null,
-    "requires_intervention": false,
+    "patch_note": "This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.",
+    "requires_intervention": true,
     "unaffected": false,
     "gem": "rails"
   },
@@ -284,16 +274,6 @@
     "ghsa_identifier": "GHSA-vx9j-46rh-fqr8",
     "snyk_identifiers": "SNYK-RUBY-ACTIONVIEW-20263",
     "short_description": "Information exposure in ActionView",
-    "patch_note": null,
-    "requires_intervention": false,
-    "unaffected": false,
-    "gem": "rails"
-  },
-  {
-    "cve_identifier": "CVE-2016-2098",
-    "ghsa_identifier": "GHSA-78rc-8c29-p45g",
-    "snyk_identifiers": "SNYK-RUBY-ACTIONPACK-20264",
-    "short_description": "Arbitrary code execution in ActionPack",
     "patch_note": null,
     "requires_intervention": false,
     "unaffected": false,

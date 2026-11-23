@@ -117,9 +117,6 @@ This is a known list of all known vulnerabilities relevant for Rails 2.3.18.56 L
   - Arbitrary data injection in ActiveRecord
   - NOTE: Rails LTS was not affected by this CVE.
 
-- CVE-2014-7818
-  - Directory traversal in ActionPack
-
 - CVE-2014-7829
   - Directory traversal in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
@@ -165,10 +162,7 @@ This is a known list of all known vulnerabilities relevant for Rails 2.3.18.56 L
 
 - CVE-2016-0751
   - DoS in ActionPack
-
-- CVE-2016-0752
-  - Directory traversal in ActionView
-  - NOTE: Rails LTS was not affected by this CVE.
+  - NOTE: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
 
 - CVE-2016-0753
   - Input validation bypass in ActiveModel
@@ -178,9 +172,6 @@ This is a known list of all known vulnerabilities relevant for Rails 2.3.18.56 L
 
 - CVE-2016-2098
   - Arbitrary code execution in ActionPack
-
-- CVE-2016-6316
-  - XSS in ActionView
 
 - CVE-2016-6317
   - Unsafe query generation in ActiveRecord
@@ -471,10 +462,6 @@ This is a known list of all known vulnerabilities relevant for Rails 2.3.18.56 L
 
 - GHSA-rwvh-fw6r-pwvp
   - Possible DoS vulnerability in Action Controller Live streaming
-  - NOTE: Rails LTS was not affected by this CVE.
-
-- GHSA-v6rj-xm57-3p59
-  - Possible XSS vulnerability in Action View highlight helper
   - NOTE: Rails LTS was not affected by this CVE.
 
 - GHSA-v924-7rp8-4mxh

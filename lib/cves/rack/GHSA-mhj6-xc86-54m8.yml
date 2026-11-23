@@ -1,0 +1,15 @@
+cve_identifier: ~
+snyk_identifiers: []
+ghsa_identifier: GHSA-mhj6-xc86-54m8
+short_description: Possible directory listing outside the root in Rack::Directory via symbolic links
+unaffected_versions:
+  - '< 2'
+affected_versions:
+  - '>= 2.0, < 2.2.26.10'
+  - '>= 3.0, < 3.1.24'
+  - '>= 3.2, < 3.2.9'
+patched:
+  - versions:
+    - '>= 2.2.26.10, < 2.3'
+    patch_note: ~
+    requires_intervention: false
