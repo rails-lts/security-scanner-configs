@@ -134,10 +134,6 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
-  SNYK-RUBY-ACTIONPACK-20198:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
   SNYK-RUBY-ACTIONPACK-20200:
     - '*':
         reason: Does not affect Rails LTS
@@ -182,14 +178,11 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
-  SNYK-RUBY-ACTIONPACK-20256:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
-  SNYK-RUBY-ACTIONVIEW-20262:
-    - '*':
-        reason: Does not affect Rails LTS
-        expires: false
+  # PLEASE CHECK This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
+  # SNYK-RUBY-ACTIONPACK-20256:
+  #   - '*':
+  #       reason: Fixed in Rails LTS
+  #       expires: false
   SNYK-RUBY-ACTIVEMODEL-20260:
     - '*':
         reason: Fixed in Rails LTS
@@ -199,10 +192,6 @@ ignore:
         reason: Fixed in Rails LTS
         expires: false
   SNYK-RUBY-ACTIONPACK-20264:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
-  SNYK-RUBY-ACTIONVIEW-20271:
     - '*':
         reason: Fixed in Rails LTS
         expires: false

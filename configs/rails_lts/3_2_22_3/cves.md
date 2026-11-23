@@ -44,7 +44,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.3 LT
 
 - CVE-2013-1854
   - DoS in ActiveRecord
-  - NOTE: Rails LTS was not affected by this CVE.
+  - NOTE: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
 
 - CVE-2013-1855
   - XSS in ActionPack
@@ -56,10 +56,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.3 LT
 
 - CVE-2014-0080
   - Data injection in postgres array columns
-  - NOTE: Rails LTS was not affected by this CVE.
-
-- CVE-2014-0081
-  - XSS in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
 
 - CVE-2014-0130

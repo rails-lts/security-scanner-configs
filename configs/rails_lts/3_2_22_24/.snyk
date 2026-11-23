@@ -41,10 +41,11 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
-  SNYK-RUBY-ACTIVERECORD-20088:
-    - '*':
-        reason: Does not affect Rails LTS
-        expires: false
+  # PLEASE CHECK This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
+  # SNYK-RUBY-ACTIVERECORD-20088:
+  #   - '*':
+  #       reason: Fixed in Rails LTS
+  #       expires: false
   SNYK-RUBY-ACTIONPACK-20090:
     - '*':
         reason: Does not affect Rails LTS
@@ -54,10 +55,6 @@ ignore:
         reason: Does not affect Rails LTS
         expires: false
   SNYK-RUBY-ACTIVERECORD-20149:
-    - '*':
-        reason: Does not affect Rails LTS
-        expires: false
-  SNYK-RUBY-ACTIONPACK-20147:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
@@ -101,10 +98,11 @@ ignore:
     - '*':
         reason: Fixed in Rails LTS
         expires: false
-  SNYK-RUBY-ACTIONPACK-20256:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
+  # PLEASE CHECK This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
+  # SNYK-RUBY-ACTIONPACK-20256:
+  #   - '*':
+  #       reason: Fixed in Rails LTS
+  #       expires: false
   SNYK-RUBY-ACTIONVIEW-20262:
     - '*':
         reason: Fixed in Rails LTS
@@ -114,14 +112,6 @@ ignore:
         reason: Fixed in Rails LTS
         expires: false
   SNYK-RUBY-ACTIONVIEW-20263:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
-  SNYK-RUBY-ACTIONPACK-20264:
-    - '*':
-        reason: Fixed in Rails LTS
-        expires: false
-  SNYK-RUBY-ACTIONVIEW-20271:
     - '*':
         reason: Fixed in Rails LTS
         expires: false
@@ -177,11 +167,6 @@ ignore:
     - '*':
         reason: Does not affect Rails LTS
         expires: false
-  # PLEASE CHECK If you see "POTENTIAL UNSAFE USE OF `CACHE.READ`" in your rails log, potential code changes are required (see https://mailchi.mp/railslts/rails-lts-potential-remote-code-execution-of-user-provided-local-names-cve-2020-5042374)
-  # SNYK-RUBY-ACTIVESUPPORT-569598:
-  #   - '*':
-  #       reason: Fixed in Rails LTS
-  #       expires: false
   SNYK-RUBY-ACTIONPACK-569599:
     - '*':
         reason: Does not affect Rails LTS

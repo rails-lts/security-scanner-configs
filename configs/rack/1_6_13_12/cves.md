@@ -35,3 +35,7 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.12 LT
 - GHSA-5v64-555j-wjxm
   - Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
   - NOTE: Rack LTS was not affected by this CVE.
+
+- GHSA-mhj6-xc86-54m8
+  - Possible directory listing outside the root in Rack::Directory via symbolic links
+  - NOTE: Rack LTS was not affected by this CVE.

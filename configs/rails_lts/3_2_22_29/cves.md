@@ -44,7 +44,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.29 L
 
 - CVE-2013-1854
   - DoS in ActiveRecord
-  - NOTE: Rails LTS was not affected by this CVE.
+  - NOTE: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
 
 - CVE-2013-1855
   - XSS in ActionPack
@@ -56,10 +56,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.29 L
 
 - CVE-2014-0080
   - Data injection in postgres array columns
-  - NOTE: Rails LTS was not affected by this CVE.
-
-- CVE-2014-0081
-  - XSS in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
 
 - CVE-2014-0130
@@ -101,6 +97,7 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.29 L
 
 - CVE-2016-0751
   - DoS in ActionPack
+  - NOTE: This version fixes it only on Ruby 2.2 and later (fully fixed in Rails LTS 2.3.18.66, 3.2.22.58 and 4.2.11.46). If you run Ruby 2.2 or later, you can uncomment this line.
 
 - CVE-2016-0752
   - Directory traversal in ActionView
@@ -110,12 +107,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.29 L
 
 - CVE-2016-2097
   - Information exposure in ActionView
-
-- CVE-2016-2098
-  - Arbitrary code execution in ActionPack
-
-- CVE-2016-6316
-  - XSS in ActionView
 
 - CVE-2018-16476
   - Access control vulnerability in ActiveJob
@@ -161,10 +152,6 @@ This is a known list of all known vulnerabilities relevant for Rails 3.2.22.29 L
 - CVE-2020-8164
   - Information exposure in ActionPack
   - NOTE: Rails LTS was not affected by this CVE.
-
-- CVE-2020-8165
-  - Unintended unmarshalling in MemCacheStore/RedisCacheStore
-  - NOTE: If you see "POTENTIAL UNSAFE USE OF `CACHE.READ`" in your rails log, potential code changes are required (see https://mailchi.mp/railslts/rails-lts-potential-remote-code-execution-of-user-provided-local-names-cve-2020-5042374)
 
 - CVE-2020-8166
   - CSRF in ActionPack

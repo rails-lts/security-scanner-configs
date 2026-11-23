@@ -22,6 +22,7 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.18 LT
 
 - CVE-2022-44571
   - ReDos in Rack
+  - NOTE: This version fixes it only on Ruby 3.2 and later (fully fixed in Rack 1.4.7.35, 1.6.13.33 and 2.2.26.11). If you run Ruby 3.2 or later, you can uncomment this line.
 
 - CVE-2022-44572
   - ReDos in Rack
@@ -39,9 +40,6 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.18 LT
 - CVE-2024-26141
   - DoS vulnerability in Rack
 
-- CVE-2024-26146
-  - ReDoS vulnerability in Rack
-
 - CVE-2025-25184
   - Possible log injection in Rack
 
@@ -55,4 +53,8 @@ This is a known list of all known vulnerabilities relevant for Rack 1.6.13.18 LT
 
 - GHSA-5v64-555j-wjxm
   - Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion
+  - NOTE: Rack LTS was not affected by this CVE.
+
+- GHSA-mhj6-xc86-54m8
+  - Possible directory listing outside the root in Rack::Directory via symbolic links
   - NOTE: Rack LTS was not affected by this CVE.

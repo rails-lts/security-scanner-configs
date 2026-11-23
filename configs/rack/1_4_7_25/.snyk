@@ -25,10 +25,11 @@ ignore:
     - '*':
         reason: Fixed in Rack LTS
         expires: false
-  SNYK-RUBY-RACK-3237233:
-    - '*':
-        reason: Fixed in Rack LTS
-        expires: false
+  # PLEASE CHECK This version fixes it only on Ruby 3.2 and later (fully fixed in Rack 1.4.7.35, 1.6.13.33 and 2.2.26.11). If you run Ruby 3.2 or later, you can uncomment this line.
+  # SNYK-RUBY-RACK-3237233:
+  #   - '*':
+  #       reason: Fixed in Rack LTS
+  #       expires: false
   SNYK-RUBY-RACK-3237237:
     - '*':
         reason: Does not affect Rack LTS
@@ -76,10 +77,6 @@ ignore:
   SNYK-RUBY-RACK-13052974:
     - '*':
         reason: Does not affect Rack LTS
-        expires: false
-  SNYK-RUBY-RACK-13378932:
-    - '*':
-        reason: Fixed in Rack LTS
         expires: false
   SNYK-RUBY-RACK-13378930:
     - '*':

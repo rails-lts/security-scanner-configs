@@ -108,5 +108,15 @@
     "requires_intervention": false,
     "unaffected": true,
     "gem": "rack"
+  },
+  {
+    "cve_identifier": null,
+    "ghsa_identifier": "GHSA-mhj6-xc86-54m8",
+    "snyk_identifiers": "",
+    "short_description": "Possible directory listing outside the root in Rack::Directory via symbolic links",
+    "patch_note": null,
+    "requires_intervention": false,
+    "unaffected": true,
+    "gem": "rack"
   }
 ]
